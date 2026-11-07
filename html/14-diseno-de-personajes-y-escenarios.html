@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mw4n5sli-w2fod6t0u">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>1.4 Diseño de personajes y escenarios | GameStart: Tu primer videojuego</title>
+<link rel="icon" type="image/x-icon" href="../theme/img/favicon.ico">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/markdown-text/markdown-text.js"></script><link rel="stylesheet" href="../idevices/markdown-text/markdown-text.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mw4n5sli-w2fod6t0u" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Introducción</a>
+</li>
+<li> <a href="../html/1-primeros-pasos-para-crear-un-videojuego.html" class="daddy">1. Primeros pasos para crear un videojuego</a>
+<ul class="other-section">
+<li> <a href="../html/quiz-diagnostico.html" class="no-ch">Quiz Diagnostico</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/11-que-es-un-videojuego.html" class="no-ch">1.1 ¿Qué es un videojuego?</a>
+</li>
+<li> <a href="../html/12-motores-de-desarrollo.html" class="daddy">1.2 Motores de desarrollo</a>
+<ul class="other-section">
+<li> <a href="../html/cuestionario-motores-de-desarrollo.html" class="no-ch">Cuestionario Motores de Desarrollo</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/13-elementos-basicos-de-un-juego.html" class="daddy">1.3 Elementos básicos de un juego</a>
+<ul class="other-section">
+<li> <a href="../html/crucigrama-elementos-de-un-videojuego.html" class="no-ch">Crucigrama elementos de un videojuego</a>
+</li>
+<li> <a href="../html/minijuego.html" class="no-ch">Minijuego</a>
+</li>
+</ul>
+</li>
+<li class="active"> <a href="../html/14-diseno-de-personajes-y-escenarios.html" class="active daddy">1.4 Diseño de personajes y escenarios</a>
+<ul class="other-section">
+<li> <a href="../html/sopa-de-letras-conceptos.html" class="daddy">Sopa de letras conceptos</a>
+<ul class="other-section">
+<li> <a href="../html/galeria-de-sprites.html" class="no-ch">Galeria de Sprites</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/15-creacion-de-un-prototipo-en-unity.html" class="no-ch">1.5 Creación de un prototipo en Unity</a>
+</li>
+</ul>
+</nav><main id="page-mw4n5sli-w2fod6t0u" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">GameStart: Tu primer videojuego</p></div>
+<div class="page-header"><h1 class="page-title">1.4 Diseño de personajes y escenarios</h1></div>
+</header><div id="page-content-page-mw4n5sli-w2fod6t0u" class="page-content">
+<article id="block-mw4qwwgv-1rrkka4pj" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1793955714654-egppg3pp9" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1793955714654-egppg3pp9&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupamiento&quot;,&quot;markdownTextarea&quot;:&quot;# Diseño de personajes y escenarios\n### Y comparativa de motores (Godot, Unity y Unreal) aplicada a este caso\n\n\n&gt; **Nota:** los datos de licencias se verificaron en noviembre de 2026. Revisa siempre los términos oficiales vigentes antes de lanzar un juego comercial.\n\n---\n\n## Índice\n\n1. [Diseño de personajes](#1-diseño-de-personajes)\n2. [Diseño de escenarios](#2-diseño-de-escenarios)\n3. [Cómo se complementan personaje y escenario](#3-cómo-se-complementan-personaje-y-escenario)\n4. [Comparativa de motores: Godot vs Unity vs Unreal](#4-comparativa-de-motores-godot-vs-unity-vs-unreal)\n5. [¿Cuál elegir según tu proyecto?](#5-cuál-elegir-según-tu-proyecto)\n6. [Checklist final](#6-checklist-final)\n\n---\n\n## 1. Diseño de personajes\n\nUn personaje de videojuego no solo tiene que *verse bien*: tiene que **funcionar jugando**. El jugador debe reconocerlo en un segundo, entender qué rol tiene y sentir algo por él (simpatía, miedo, curiosidad).\n\n### 1.1 Principios básicos\n\n| Principio | Qué significa | Ejemplo práctico |\n|---|---|---|\n| **Silueta** | Si rellenas el personaje de negro, debe seguir siendo reconocible | Un héroe con capa larga y un enemigo con cuernos se distinguen al instante |\n| **Lenguaje de formas** | Las formas transmiten personalidad | Círculos = amistoso o inofensivo · Cuadrados = fuerte y estable · Triángulos = peligroso o ágil |\n| **Paleta de color** | Pocos colores bien elegidos comunican mejor que muchos | Protagonista con color que destaca del fondo; enemigos con una paleta propia |\n| **Legibilidad** | Debe verse bien a poco tamaño y en movimiento | Evita detalles diminutos que se pierden en pantalla |\n| **Coherencia** | Mismo estilo que el resto del juego | Un personaje realista en un mundo de dibujos animados rompe la estética |\n| **Personalidad visual** | Postura, proporciones y rasgos cuentan quién es | Hombros caídos y mirada baja transmiten cansancio o timidez |\n\n### 1.2 Proceso paso a paso\n\n1. **Brief del personaje.** Responde en pocas líneas: ¿quién es?, ¿qué rol cumple en el juego (jugador, aliado, enemigo, jefe)?, ¿qué quiere?, ¿cómo se mueve?\n2. **Referencias y moodboard.** Reúne imágenes de personajes, ropa, animales o épocas que te inspiren. Cuida de usar las referencias como inspiración, no como copia.\n3. **Bocetos de silueta.** Dibuja 10 o 15 siluetas rápidas y quédate con las 2 o 3 más distintas.\n4. **Refinamiento.** Añade rasgos, ropa, accesorios y detalles solo sobre la silueta ganadora.\n5. **Hoja de modelo (*model sheet*).** Es el plano del personaje y sirve de guía para toda la producción. Incluye:\n   - vista frontal, lateral y trasera,\n   - expresiones faciales principales,\n   - paleta de colores definitiva,\n   - proporciones y tamaño comparado con otros elementos.\n6. **Producción del arte.**\n   - **2D:** *sprites* (pixel art, dibujo a mano o vectorial) y hojas de animación.\n   - **3D:** modelado, desenvolver UV, texturizado y *rigging* (crear el esqueleto).\n7. **Animación.** Empieza por lo mínimo necesario (ver tabla de abajo).\n8. **Prueba dentro del motor.** Ponlo en un escenario de prueba, con la cámara real del juego, y comprueba que se lee bien.\n\n### 1.3 Animaciones mínimas para un personaje jugable\n\n| Animación | Para qué sirve |\n|---|---|\n| Reposo (*idle*) | Da vida al personaje cuando el jugador no hace nada |\n| Caminar / correr | Comunica velocidad y peso |\n| Salto (subida, caída, aterrizaje) | Da sensación de control y de gravedad |\n| Ataque o acción principal | Es el verbo central del juego, debe ser claro y satisfactorio |\n| Daño | Confirma al jugador que algo le ha golpeado |\n| Muerte o derrota | Cierra la acción y da feedback |\n\n### 1.4 Errores comunes\n\n- Diseñar al personaje con demasiado detalle y luego no poder animarlo.\n- Una silueta confusa que se mezcla con el fondo.\n- Demasiados colores sin jerarquía visual.\n- No pensar en cómo se verá desde la cámara real del juego.\n- Empezar por el arte final antes de probar si el personaje *se siente bien* al moverse (primero usa una cápsula o un cuadrado).\n\n---\n\n## 2. Diseño de escenarios\n\nUn escenario no es solo decoración. Cumple cuatro funciones a la vez:\n\n- **Jugabilidad:** define por dónde se puede ir, qué se puede escalar, dónde hay peligro.\n- **Guía:** ayuda al jugador a saber hacia dónde avanzar sin necesidad de flechas.\n- **Ambiente:** crea el clima emocional (calma, tensión, misterio, alegría).\n- **Narrativa:** cuenta la historia del lugar a través de objetos y detalles.\n\n### 2.1 Principios básicos\n\n| Principio | Qué significa | Ejemplo práctico |\n|---|---|---|\n| **Capas de profundidad** | Primer plano, plano medio y fondo | En 2D se logra con *parallax*; en 3D con objetos a distintas distancias |\n| **Guía visual** | Luz, color y formas llevan la mirada | Una luz cálida al final de un pasillo oscuro invita a avanzar |\n| **Legibilidad jugable** | Lo que se puede pisar o tocar debe diferenciarse de lo decorativo | Las plataformas con bordes claros; el fondo con menos contraste |\n| **Escala y ritmo** | Alternar espacios abiertos y cerrados, calma y acción | Un pasillo estrecho seguido de una sala grande genera impacto |\n| **Modularidad** | Construir con piezas reutilizables | Un kit de paredes, suelos y columnas permite crear muchos niveles |\n| **Iluminación** | Define la atmósfera y destaca lo importante | Luz fría para soledad, cálida para refugio |\n\n### 2.2 Proceso paso a paso\n\n1. **Concepto y propósito del nivel.** ¿Qué quiere que haga y sienta el jugador aquí?\n2. **Mapa o diagrama.** Un dibujo a mano con el recorrido, los puntos de interés y los peligros.\n3. **Blockout o *greybox*.** Construye el nivel solo con formas simples (cubos, planos, cilindros), **sin arte**. Es el paso más importante.\n4. **Prueba de jugabilidad.** Juega el blockout. ¿Se entiende por dónde ir? ¿Los saltos son posibles? ¿Es divertido?\n5. **Arte final.** Reemplaza las formas simples por modelos o *tiles* con textura.\n6. **Iluminación y efectos.** Luces, niebla, partículas, sonido ambiente.\n7. **Optimización.** Revisa el rendimiento, reduce lo que no se ve y ajusta la calidad.\n\n&gt; **Regla de oro:** si el nivel no es divertido en blockout, el arte no lo va a salvar.\n\n### 2.3 Particularidades por tipo de juego\n\n**Escenarios 2D**\n- Se construyen con **tilemaps**: cuadrículas de piezas pequeñas que se repiten.\n- Usa **parallax** (capas de fondo que se mueven a distinta velocidad) para dar profundidad.\n- Cuida el contraste entre el fondo y el plano donde se mueve el personaje.\n\n**Escenarios 3D**\n- Usa **kits modulares** para construir rápido y mantener coherencia.\n- Trabaja el **terreno** (montañas, valles) y la **vegetación** con herramientas específicas del motor.\n- La **iluminación** (directa, indirecta, sombras) cambia por completo la sensación del lugar.\n- Reduce el costo gráfico con **LOD** (versiones simples de los objetos lejanos).\n\n### 2.4 Errores comunes\n\n- Hacer un mundo enorme y vacío en lugar de uno pequeño y lleno de intención.\n- Detalles que parecen interactivos pero no lo son (o al revés).\n- Decorar antes de probar la jugabilidad.\n- Ignorar la iluminación hasta el final.\n- No pensar en el rendimiento del dispositivo donde se va a jugar.\n\n---\n\n## 3. Cómo se complementan personaje y escenario\n\n| Aspecto | Buena práctica |\n|---|---|\n| **Contraste** | El personaje debe destacar sobre el fondo: color, brillo o saturación distintos |\n| **Escala** | Define una unidad de medida (por ejemplo, el personaje mide 2 metros) y construye todo en función de ella |\n| **Paleta** | El escenario usa colores más apagados; el personaje y los elementos interactivos, más vivos |\n| **Estilo** | Mismo nivel de detalle y mismo tipo de trazo o modelado en ambos |\n| **Animación y entorno** | El mundo reacciona al personaje: hierba que se mueve, polvo al correr, sombras |\n\n---\n\n## 4. Comparativa de motores: Godot vs Unity vs Unreal\n\nEsta comparativa se centra en lo que importa **para crear personajes y escenarios**: herramientas 2D y 3D, animación, construcción de niveles, iluminación, importación de arte y costo.\n\n### 4.1 Vista rápida\n\n| Criterio | Godot | Unity | Unreal Engine |\n|---|---|---|---|\n| **Licencia y costo** | Gratuito y de código abierto (licencia MIT), sin regalías | **Personal:** gratis si tus ingresos y fondos de los últimos 12 meses son menores a 200 000 USD. Por encima, plan de pago | Gratis; regalía del **5 %** sobre los ingresos brutos de un producto que superen el primer millón de dólares |\n| **Lenguaje principal** | GDScript (muy sencillo); también C# | C# | Blueprints (visual) y C++ |\n| **Curva de aprendizaje** | Baja | Media | Alta |\n| **Peso y requisitos** | Muy ligero | Medio | Exigente |\n| **Mejor para** | 2D, 3D estilizado, proyectos pequeños | 2D y 3D, móvil, proyectos de todo tamaño | 3D realista y de alta calidad visual |\n\n### 4.2 Personajes y animación\n\n| Aspecto | Godot | Unity | Unreal Engine |\n|---|---|---|---|\n| **Personajes 2D** | Muy buena. Motor 2D dedicado, con nodos de sprites animados, esqueletos 2D y un editor de animación integrado | Muy buena. Editor de sprites, paquete *2D Animation* para esqueletos y luces 2D | Limitada. Tiene herramientas 2D (Paper2D), pero no es su fuerte |\n| **Personajes 3D** | Buena. Esqueletos 3D, árbol de animación y retargeting básico | Muy buena. Animator, rigs *Humanoid* con reutilización de animaciones, Timeline y Cinemachine | Excelente. Control Rig, retargeting avanzado, Animation Blueprints y MetaHuman para humanos realistas |\n| **Facilidad para animar** | Muy directa y visual | Directa; muchos tutoriales | Potente, pero con más conceptos que aprender |\n\n### 4.3 Escenarios y construcción de niveles\n\n| Aspecto | Godot | Unity | Unreal Engine |\n|---|---|---|---|\n| **Blockout rápido** | Nodos CSG y GridMap | ProBuilder | Modeling Mode y herramientas de geometría |\n| **Tilemaps 2D** | Excelente y muy intuitivo | Muy bueno | Limitado |\n| **Terrenos 3D** | Más básico; existen *add-ons* de la comunidad | Sistema Terrain integrado | Muy avanzado: Landscape, vegetación y herramientas para mundos grandes |\n| **Iluminación** | Buena (varias opciones de luz global) | Muy buena; depende del pipeline gráfico (URP o HDRP) | Excelente; destaca en realismo |\n| **Calidad visual realista** | Media | Alta con HDRP | La más alta de las tres |\n\n### 4.4 Importación de arte y ecosistema\n\n| Aspecto | Godot | Unity | Unreal Engine |\n|---|---|---|---|\n| **Formatos 3D** | glTF recomendado; también otros | FBX y otros muy extendidos | FBX y otros |\n| **Trabajo con Blender** | Muy fluido con glTF | Muy fluido | Fluido |\n| **Tienda de recursos** | Biblioteca de recursos de Godot (más pequeña) | Unity Asset Store (muy amplia) | Fab (muy amplia, con muchos recursos de alta calidad) |\n| **Comunidad y tutoriales** | Creciente y muy activa | Enorme | Grande, enfocada en proyectos de alta calidad |\n\n### 4.5 Ventajas y desventajas resumidas\n\n**Godot**\n- ✅ Gratis, ligero, rápido de aprender y excelente para 2D.\n- ✅ Sin regalías ni límites de ingresos.\n- ⚠️ Menos recursos y tutoriales que Unity; herramientas 3D de gran escala menos maduras.\n- ⚠️ Menos opciones oficiales para consolas.\n\n**Unity**\n- ✅ Equilibrio entre 2D y 3D, gran cantidad de tutoriales y recursos.\n- ✅ Muy usado en móvil y juegos independientes.\n- ⚠️ Revisa los límites de ingresos de la licencia gratuita.\n- ⚠️ Los distintos pipelines gráficos (URP, HDRP) pueden confundir al empezar.\n\n**Unreal Engine**\n- ✅ Calidad visual realista y herramientas muy potentes para escenarios grandes y personajes detallados.\n- ✅ Blueprints permite crear lógica sin programar.\n- ⚠️ Requiere un equipo potente y tiene una curva de aprendizaje más alta.\n- ⚠️ No es la opción habitual para juegos 2D.\n\n---\n\n## 5. ¿Cuál elegir según tu proyecto?\n\n| Tu proyecto | Recomendación | Por qué |\n|---|---|---|\n| Juego 2D con pixel art | **Godot** (o Unity) | Herramientas 2D muy cómodas y proyectos ligeros |\n| Plataformas o aventura 2D con dibujo a mano | **Godot** o **Unity** | Ambos tienen buen soporte de animación de esqueletos 2D |\n| 3D estilizado (low poly, cartoon) | **Godot** o **Unity** | Menor curva de aprendizaje y buen rendimiento |\n| 3D realista con escenarios grandes | **Unreal Engine** | Iluminación, terrenos y personajes de alto nivel |\n| Juego para móvil | **Unity** (o Godot) | Gran experiencia y recursos para móvil |\n| Tu primer juego, sin experiencia | **Godot** o **Unity** | Más fáciles de aprender y con muchísimo material |\n| Equipo pequeño con presupuesto cero | **Godot** | Sin costos ni condiciones de ingresos |\n\n&gt; **Consejo:** no tardes meses decidiendo. Haz una escena simple (un personaje y un suelo) en dos motores, una tarde en cada uno, y quédate con el que te resulte más cómodo.\n\n---\n\n## 6. Checklist final\n\n**Personaje**\n- [ ] La silueta se reconoce en negro.\n- [ ] Tiene una paleta corta y clara.\n- [ ] Hice una hoja de modelo (vistas, expresiones, colores).\n- [ ] Tengo las animaciones mínimas (reposo, caminar, salto, acción principal).\n- [ ] Lo probé en el motor con la cámara real.\n\n**Escenario**\n- [ ] Hice un blockout y lo jugué antes de añadir arte.\n- [ ] Lo jugable se distingue de lo decorativo.\n- [ ] Tiene capas de profundidad y una guía visual clara.\n- [ ] La iluminación apoya la atmósfera.\n- [ ] Revisé el rendimiento.\n\n**Motor**\n- [ ] Elegí según el tipo de proyecto, mi experiencia y mi equipo.\n- [ ] Revisé la licencia vigente.\n- [ ] Probé una escena sencilla antes de comprometerme.&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar retroalimentación&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;h1&gt;Diseño de personajes y escenarios&lt;/h1&gt;\n&lt;h3&gt;Y comparativa de motores (Godot, Unity y Unreal) aplicada a este caso&lt;/h3&gt;\n&lt;blockquote&gt;\n  &lt;p&gt;&lt;strong&gt;Nota:&lt;/strong&gt; los datos de licencias se verificaron en noviembre de 2026. Revisa siempre los términos oficiales vigentes antes de lanzar un juego comercial.&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;hr /&gt;\n&lt;h2&gt;Índice&lt;/h2&gt;\n&lt;ol&gt;\n&lt;li&gt;&lt;a href=\&quot;#1-diseño-de-personajes\&quot;&gt;Diseño de personajes&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#2-diseño-de-escenarios\&quot;&gt;Diseño de escenarios&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#3-cómo-se-complementan-personaje-y-escenario\&quot;&gt;Cómo se complementan personaje y escenario&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#4-comparativa-de-motores-godot-vs-unity-vs-unreal\&quot;&gt;Comparativa de motores: Godot vs Unity vs Unreal&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#5-cuál-elegir-según-tu-proyecto\&quot;&gt;¿Cuál elegir según tu proyecto?&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#6-checklist-final\&quot;&gt;Checklist final&lt;/a&gt;&lt;/li&gt;\n&lt;/ol&gt;\n&lt;hr /&gt;\n&lt;h2&gt;1. Diseño de personajes&lt;/h2&gt;\n&lt;p&gt;Un personaje de videojuego no solo tiene que &lt;em&gt;verse bien&lt;/em&gt;: tiene que &lt;strong&gt;funcionar jugando&lt;/strong&gt;. El jugador debe reconocerlo en un segundo, entender qué rol tiene y sentir algo por él (simpatía, miedo, curiosidad).&lt;/p&gt;\n&lt;h3&gt;1.1 Principios básicos&lt;/h3&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Principio&lt;/th&gt;\n&lt;th&gt;Qué significa&lt;/th&gt;\n&lt;th&gt;Ejemplo práctico&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Silueta&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Si rellenas el personaje de negro, debe seguir siendo reconocible&lt;/td&gt;\n&lt;td&gt;Un héroe con capa larga y un enemigo con cuernos se distinguen al instante&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Lenguaje de formas&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Las formas transmiten personalidad&lt;/td&gt;\n&lt;td&gt;Círculos = amistoso o inofensivo · Cuadrados = fuerte y estable · Triángulos = peligroso o ágil&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Paleta de color&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Pocos colores bien elegidos comunican mejor que muchos&lt;/td&gt;\n&lt;td&gt;Protagonista con color que destaca del fondo; enemigos con una paleta propia&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Legibilidad&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Debe verse bien a poco tamaño y en movimiento&lt;/td&gt;\n&lt;td&gt;Evita detalles diminutos que se pierden en pantalla&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Coherencia&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Mismo estilo que el resto del juego&lt;/td&gt;\n&lt;td&gt;Un personaje realista en un mundo de dibujos animados rompe la estética&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Personalidad visual&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Postura, proporciones y rasgos cuentan quién es&lt;/td&gt;\n&lt;td&gt;Hombros caídos y mirada baja transmiten cansancio o timidez&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;h3&gt;1.2 Proceso paso a paso&lt;/h3&gt;\n&lt;ol&gt;\n&lt;li&gt;&lt;strong&gt;Brief del personaje.&lt;/strong&gt; Responde en pocas líneas: ¿quién es?, ¿qué rol cumple en el juego (jugador, aliado, enemigo, jefe)?, ¿qué quiere?, ¿cómo se mueve?&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Referencias y moodboard.&lt;/strong&gt; Reúne imágenes de personajes, ropa, animales o épocas que te inspiren. Cuida de usar las referencias como inspiración, no como copia.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Bocetos de silueta.&lt;/strong&gt; Dibuja 10 o 15 siluetas rápidas y quédate con las 2 o 3 más distintas.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Refinamiento.&lt;/strong&gt; Añade rasgos, ropa, accesorios y detalles solo sobre la silueta ganadora.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Hoja de modelo (&lt;em&gt;model sheet&lt;/em&gt;).&lt;/strong&gt; Es el plano del personaje y sirve de guía para toda la producción. Incluye:&lt;ul&gt;\n&lt;li&gt;vista frontal, lateral y trasera,&lt;/li&gt;\n&lt;li&gt;expresiones faciales principales,&lt;/li&gt;\n&lt;li&gt;paleta de colores definitiva,&lt;/li&gt;\n&lt;li&gt;proporciones y tamaño comparado con otros elementos.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Producción del arte.&lt;/strong&gt;&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;2D:&lt;/strong&gt; &lt;em&gt;sprites&lt;/em&gt; (pixel art, dibujo a mano o vectorial) y hojas de animación.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;3D:&lt;/strong&gt; modelado, desenvolver UV, texturizado y &lt;em&gt;rigging&lt;/em&gt; (crear el esqueleto).&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Animación.&lt;/strong&gt; Empieza por lo mínimo necesario (ver tabla de abajo).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Prueba dentro del motor.&lt;/strong&gt; Ponlo en un escenario de prueba, con la cámara real del juego, y comprueba que se lee bien.&lt;/li&gt;\n&lt;/ol&gt;\n&lt;h3&gt;1.3 Animaciones mínimas para un personaje jugable&lt;/h3&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Animación&lt;/th&gt;\n&lt;th&gt;Para qué sirve&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;Reposo (&lt;em&gt;idle&lt;/em&gt;)&lt;/td&gt;\n&lt;td&gt;Da vida al personaje cuando el jugador no hace nada&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;Caminar / correr&lt;/td&gt;\n&lt;td&gt;Comunica velocidad y peso&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;Salto (subida, caída, aterrizaje)&lt;/td&gt;\n&lt;td&gt;Da sensación de control y de gravedad&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;Ataque o acción principal&lt;/td&gt;\n&lt;td&gt;Es el verbo central del juego, debe ser claro y satisfactorio&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;Daño&lt;/td&gt;\n&lt;td&gt;Confirma al jugador que algo le ha golpeado&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;Muerte o derrota&lt;/td&gt;\n&lt;td&gt;Cierra la acción y da feedback&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;h3&gt;1.4 Errores comunes&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Diseñar al personaje con demasiado detalle y luego no poder animarlo.&lt;/li&gt;\n&lt;li&gt;Una silueta confusa que se mezcla con el fondo.&lt;/li&gt;\n&lt;li&gt;Demasiados colores sin jerarquía visual.&lt;/li&gt;\n&lt;li&gt;No pensar en cómo se verá desde la cámara real del juego.&lt;/li&gt;\n&lt;li&gt;Empezar por el arte final antes de probar si el personaje &lt;em&gt;se siente bien&lt;/em&gt; al moverse (primero usa una cápsula o un cuadrado).&lt;/li&gt;\n&lt;/ul&gt;\n&lt;hr /&gt;\n&lt;h2&gt;2. Diseño de escenarios&lt;/h2&gt;\n&lt;p&gt;Un escenario no es solo decoración. Cumple cuatro funciones a la vez:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Jugabilidad:&lt;/strong&gt; define por dónde se puede ir, qué se puede escalar, dónde hay peligro.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Guía:&lt;/strong&gt; ayuda al jugador a saber hacia dónde avanzar sin necesidad de flechas.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Ambiente:&lt;/strong&gt; crea el clima emocional (calma, tensión, misterio, alegría).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Narrativa:&lt;/strong&gt; cuenta la historia del lugar a través de objetos y detalles.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;2.1 Principios básicos&lt;/h3&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Principio&lt;/th&gt;\n&lt;th&gt;Qué significa&lt;/th&gt;\n&lt;th&gt;Ejemplo práctico&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Capas de profundidad&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Primer plano, plano medio y fondo&lt;/td&gt;\n&lt;td&gt;En 2D se logra con &lt;em&gt;parallax&lt;/em&gt;; en 3D con objetos a distintas distancias&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Guía visual&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Luz, color y formas llevan la mirada&lt;/td&gt;\n&lt;td&gt;Una luz cálida al final de un pasillo oscuro invita a avanzar&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Legibilidad jugable&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Lo que se puede pisar o tocar debe diferenciarse de lo decorativo&lt;/td&gt;\n&lt;td&gt;Las plataformas con bordes claros; el fondo con menos contraste&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Escala y ritmo&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Alternar espacios abiertos y cerrados, calma y acción&lt;/td&gt;\n&lt;td&gt;Un pasillo estrecho seguido de una sala grande genera impacto&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Modularidad&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Construir con piezas reutilizables&lt;/td&gt;\n&lt;td&gt;Un kit de paredes, suelos y columnas permite crear muchos niveles&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Iluminación&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Define la atmósfera y destaca lo importante&lt;/td&gt;\n&lt;td&gt;Luz fría para soledad, cálida para refugio&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;h3&gt;2.2 Proceso paso a paso&lt;/h3&gt;\n&lt;ol&gt;\n&lt;li&gt;&lt;strong&gt;Concepto y propósito del nivel.&lt;/strong&gt; ¿Qué quiere que haga y sienta el jugador aquí?&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Mapa o diagrama.&lt;/strong&gt; Un dibujo a mano con el recorrido, los puntos de interés y los peligros.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Blockout o &lt;em&gt;greybox&lt;/em&gt;.&lt;/strong&gt; Construye el nivel solo con formas simples (cubos, planos, cilindros), &lt;strong&gt;sin arte&lt;/strong&gt;. Es el paso más importante.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Prueba de jugabilidad.&lt;/strong&gt; Juega el blockout. ¿Se entiende por dónde ir? ¿Los saltos son posibles? ¿Es divertido?&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Arte final.&lt;/strong&gt; Reemplaza las formas simples por modelos o &lt;em&gt;tiles&lt;/em&gt; con textura.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Iluminación y efectos.&lt;/strong&gt; Luces, niebla, partículas, sonido ambiente.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Optimización.&lt;/strong&gt; Revisa el rendimiento, reduce lo que no se ve y ajusta la calidad.&lt;/li&gt;\n&lt;/ol&gt;\n&lt;blockquote&gt;\n  &lt;p&gt;&lt;strong&gt;Regla de oro:&lt;/strong&gt; si el nivel no es divertido en blockout, el arte no lo va a salvar.&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;h3&gt;2.3 Particularidades por tipo de juego&lt;/h3&gt;\n&lt;p&gt;&lt;strong&gt;Escenarios 2D&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Se construyen con &lt;strong&gt;tilemaps&lt;/strong&gt;: cuadrículas de piezas pequeñas que se repiten.&lt;/li&gt;\n&lt;li&gt;Usa &lt;strong&gt;parallax&lt;/strong&gt; (capas de fondo que se mueven a distinta velocidad) para dar profundidad.&lt;/li&gt;\n&lt;li&gt;Cuida el contraste entre el fondo y el plano donde se mueve el personaje.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Escenarios 3D&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Usa &lt;strong&gt;kits modulares&lt;/strong&gt; para construir rápido y mantener coherencia.&lt;/li&gt;\n&lt;li&gt;Trabaja el &lt;strong&gt;terreno&lt;/strong&gt; (montañas, valles) y la &lt;strong&gt;vegetación&lt;/strong&gt; con herramientas específicas del motor.&lt;/li&gt;\n&lt;li&gt;La &lt;strong&gt;iluminación&lt;/strong&gt; (directa, indirecta, sombras) cambia por completo la sensación del lugar.&lt;/li&gt;\n&lt;li&gt;Reduce el costo gráfico con &lt;strong&gt;LOD&lt;/strong&gt; (versiones simples de los objetos lejanos).&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;2.4 Errores comunes&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Hacer un mundo enorme y vacío en lugar de uno pequeño y lleno de intención.&lt;/li&gt;\n&lt;li&gt;Detalles que parecen interactivos pero no lo son (o al revés).&lt;/li&gt;\n&lt;li&gt;Decorar antes de probar la jugabilidad.&lt;/li&gt;\n&lt;li&gt;Ignorar la iluminación hasta el final.&lt;/li&gt;\n&lt;li&gt;No pensar en el rendimiento del dispositivo donde se va a jugar.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;hr /&gt;\n&lt;h2&gt;3. Cómo se complementan personaje y escenario&lt;/h2&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Aspecto&lt;/th&gt;\n&lt;th&gt;Buena práctica&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Contraste&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;El personaje debe destacar sobre el fondo: color, brillo o saturación distintos&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Escala&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Define una unidad de medida (por ejemplo, el personaje mide 2 metros) y construye todo en función de ella&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Paleta&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;El escenario usa colores más apagados; el personaje y los elementos interactivos, más vivos&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Estilo&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Mismo nivel de detalle y mismo tipo de trazo o modelado en ambos&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Animación y entorno&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;El mundo reacciona al personaje: hierba que se mueve, polvo al correr, sombras&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;hr /&gt;\n&lt;h2&gt;4. Comparativa de motores: Godot vs Unity vs Unreal&lt;/h2&gt;\n&lt;p&gt;Esta comparativa se centra en lo que importa &lt;strong&gt;para crear personajes y escenarios&lt;/strong&gt;: herramientas 2D y 3D, animación, construcción de niveles, iluminación, importación de arte y costo.&lt;/p&gt;\n&lt;h3&gt;4.1 Vista rápida&lt;/h3&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Criterio&lt;/th&gt;\n&lt;th&gt;Godot&lt;/th&gt;\n&lt;th&gt;Unity&lt;/th&gt;\n&lt;th&gt;Unreal Engine&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Licencia y costo&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Gratuito y de código abierto (licencia MIT), sin regalías&lt;/td&gt;\n&lt;td&gt;&lt;strong&gt;Personal:&lt;/strong&gt; gratis si tus ingresos y fondos de los últimos 12 meses son menores a 200 000 USD. Por encima, plan de pago&lt;/td&gt;\n&lt;td&gt;Gratis; regalía del &lt;strong&gt;5 %&lt;/strong&gt; sobre los ingresos brutos de un producto que superen el primer millón de dólares&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Lenguaje principal&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;GDScript (muy sencillo); también C#&lt;/td&gt;\n&lt;td&gt;C#&lt;/td&gt;\n&lt;td&gt;Blueprints (visual) y C++&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Curva de aprendizaje&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Baja&lt;/td&gt;\n&lt;td&gt;Media&lt;/td&gt;\n&lt;td&gt;Alta&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Peso y requisitos&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Muy ligero&lt;/td&gt;\n&lt;td&gt;Medio&lt;/td&gt;\n&lt;td&gt;Exigente&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Mejor para&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;2D, 3D estilizado, proyectos pequeños&lt;/td&gt;\n&lt;td&gt;2D y 3D, móvil, proyectos de todo tamaño&lt;/td&gt;\n&lt;td&gt;3D realista y de alta calidad visual&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;h3&gt;4.2 Personajes y animación&lt;/h3&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Aspecto&lt;/th&gt;\n&lt;th&gt;Godot&lt;/th&gt;\n&lt;th&gt;Unity&lt;/th&gt;\n&lt;th&gt;Unreal Engine&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Personajes 2D&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Muy buena. Motor 2D dedicado, con nodos de sprites animados, esqueletos 2D y un editor de animación integrado&lt;/td&gt;\n&lt;td&gt;Muy buena. Editor de sprites, paquete &lt;em&gt;2D Animation&lt;/em&gt; para esqueletos y luces 2D&lt;/td&gt;\n&lt;td&gt;Limitada. Tiene herramientas 2D (Paper2D), pero no es su fuerte&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Personajes 3D&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Buena. Esqueletos 3D, árbol de animación y retargeting básico&lt;/td&gt;\n&lt;td&gt;Muy buena. Animator, rigs &lt;em&gt;Humanoid&lt;/em&gt; con reutilización de animaciones, Timeline y Cinemachine&lt;/td&gt;\n&lt;td&gt;Excelente. Control Rig, retargeting avanzado, Animation Blueprints y MetaHuman para humanos realistas&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Facilidad para animar&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Muy directa y visual&lt;/td&gt;\n&lt;td&gt;Directa; muchos tutoriales&lt;/td&gt;\n&lt;td&gt;Potente, pero con más conceptos que aprender&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;h3&gt;4.3 Escenarios y construcción de niveles&lt;/h3&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Aspecto&lt;/th&gt;\n&lt;th&gt;Godot&lt;/th&gt;\n&lt;th&gt;Unity&lt;/th&gt;\n&lt;th&gt;Unreal Engine&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Blockout rápido&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Nodos CSG y GridMap&lt;/td&gt;\n&lt;td&gt;ProBuilder&lt;/td&gt;\n&lt;td&gt;Modeling Mode y herramientas de geometría&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Tilemaps 2D&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Excelente y muy intuitivo&lt;/td&gt;\n&lt;td&gt;Muy bueno&lt;/td&gt;\n&lt;td&gt;Limitado&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Terrenos 3D&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Más básico; existen &lt;em&gt;add-ons&lt;/em&gt; de la comunidad&lt;/td&gt;\n&lt;td&gt;Sistema Terrain integrado&lt;/td&gt;\n&lt;td&gt;Muy avanzado: Landscape, vegetación y herramientas para mundos grandes&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Iluminación&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Buena (varias opciones de luz global)&lt;/td&gt;\n&lt;td&gt;Muy buena; depende del pipeline gráfico (URP o HDRP)&lt;/td&gt;\n&lt;td&gt;Excelente; destaca en realismo&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Calidad visual realista&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Media&lt;/td&gt;\n&lt;td&gt;Alta con HDRP&lt;/td&gt;\n&lt;td&gt;La más alta de las tres&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;h3&gt;4.4 Importación de arte y ecosistema&lt;/h3&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Aspecto&lt;/th&gt;\n&lt;th&gt;Godot&lt;/th&gt;\n&lt;th&gt;Unity&lt;/th&gt;\n&lt;th&gt;Unreal Engine&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Formatos 3D&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;glTF recomendado; también otros&lt;/td&gt;\n&lt;td&gt;FBX y otros muy extendidos&lt;/td&gt;\n&lt;td&gt;FBX y otros&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Trabajo con Blender&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Muy fluido con glTF&lt;/td&gt;\n&lt;td&gt;Muy fluido&lt;/td&gt;\n&lt;td&gt;Fluido&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Tienda de recursos&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Biblioteca de recursos de Godot (más pequeña)&lt;/td&gt;\n&lt;td&gt;Unity Asset Store (muy amplia)&lt;/td&gt;\n&lt;td&gt;Fab (muy amplia, con muchos recursos de alta calidad)&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Comunidad y tutoriales&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Creciente y muy activa&lt;/td&gt;\n&lt;td&gt;Enorme&lt;/td&gt;\n&lt;td&gt;Grande, enfocada en proyectos de alta calidad&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;h3&gt;4.5 Ventajas y desventajas resumidas&lt;/h3&gt;\n&lt;p&gt;&lt;strong&gt;Godot&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;✅ Gratis, ligero, rápido de aprender y excelente para 2D.&lt;/li&gt;\n&lt;li&gt;✅ Sin regalías ni límites de ingresos.&lt;/li&gt;\n&lt;li&gt;⚠️ Menos recursos y tutoriales que Unity; herramientas 3D de gran escala menos maduras.&lt;/li&gt;\n&lt;li&gt;⚠️ Menos opciones oficiales para consolas.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Unity&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;✅ Equilibrio entre 2D y 3D, gran cantidad de tutoriales y recursos.&lt;/li&gt;\n&lt;li&gt;✅ Muy usado en móvil y juegos independientes.&lt;/li&gt;\n&lt;li&gt;⚠️ Revisa los límites de ingresos de la licencia gratuita.&lt;/li&gt;\n&lt;li&gt;⚠️ Los distintos pipelines gráficos (URP, HDRP) pueden confundir al empezar.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Unreal Engine&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;✅ Calidad visual realista y herramientas muy potentes para escenarios grandes y personajes detallados.&lt;/li&gt;\n&lt;li&gt;✅ Blueprints permite crear lógica sin programar.&lt;/li&gt;\n&lt;li&gt;⚠️ Requiere un equipo potente y tiene una curva de aprendizaje más alta.&lt;/li&gt;\n&lt;li&gt;⚠️ No es la opción habitual para juegos 2D.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;hr /&gt;\n&lt;h2&gt;5. ¿Cuál elegir según tu proyecto?&lt;/h2&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Tu proyecto&lt;/th&gt;\n&lt;th&gt;Recomendación&lt;/th&gt;\n&lt;th&gt;Por qué&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;Juego 2D con pixel art&lt;/td&gt;\n&lt;td&gt;&lt;strong&gt;Godot&lt;/strong&gt; (o Unity)&lt;/td&gt;\n&lt;td&gt;Herramientas 2D muy cómodas y proyectos ligeros&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;Plataformas o aventura 2D con dibujo a mano&lt;/td&gt;\n&lt;td&gt;&lt;strong&gt;Godot&lt;/strong&gt; o &lt;strong&gt;Unity&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Ambos tienen buen soporte de animación de esqueletos 2D&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;3D estilizado (low poly, cartoon)&lt;/td&gt;\n&lt;td&gt;&lt;strong&gt;Godot&lt;/strong&gt; o &lt;strong&gt;Unity&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Menor curva de aprendizaje y buen rendimiento&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;3D realista con escenarios grandes&lt;/td&gt;\n&lt;td&gt;&lt;strong&gt;Unreal Engine&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Iluminación, terrenos y personajes de alto nivel&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;Juego para móvil&lt;/td&gt;\n&lt;td&gt;&lt;strong&gt;Unity&lt;/strong&gt; (o Godot)&lt;/td&gt;\n&lt;td&gt;Gran experiencia y recursos para móvil&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;Tu primer juego, sin experiencia&lt;/td&gt;\n&lt;td&gt;&lt;strong&gt;Godot&lt;/strong&gt; o &lt;strong&gt;Unity&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Más fáciles de aprender y con muchísimo material&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;Equipo pequeño con presupuesto cero&lt;/td&gt;\n&lt;td&gt;&lt;strong&gt;Godot&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Sin costos ni condiciones de ingresos&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;blockquote&gt;\n  &lt;p&gt;&lt;strong&gt;Consejo:&lt;/strong&gt; no tardes meses decidiendo. Haz una escena simple (un personaje y un suelo) en dos motores, una tarde en cada uno, y quédate con el que te resulte más cómodo.&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;hr /&gt;\n&lt;h2&gt;6. Checklist final&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Personaje&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li class=\&quot;task-list-item\&quot; style=\&quot;list-style-type: none;\&quot;&gt;&lt;input type=\&quot;checkbox\&quot; disabled style=\&quot;margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;\&quot;&gt; La silueta se reconoce en negro.&lt;/li&gt;\n&lt;li class=\&quot;task-list-item\&quot; style=\&quot;list-style-type: none;\&quot;&gt;&lt;input type=\&quot;checkbox\&quot; disabled style=\&quot;margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;\&quot;&gt; Tiene una paleta corta y clara.&lt;/li&gt;\n&lt;li class=\&quot;task-list-item\&quot; style=\&quot;list-style-type: none;\&quot;&gt;&lt;input type=\&quot;checkbox\&quot; disabled style=\&quot;margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;\&quot;&gt; Hice una hoja de modelo (vistas, expresiones, colores).&lt;/li&gt;\n&lt;li class=\&quot;task-list-item\&quot; style=\&quot;list-style-type: none;\&quot;&gt;&lt;input type=\&quot;checkbox\&quot; disabled style=\&quot;margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;\&quot;&gt; Tengo las animaciones mínimas (reposo, caminar, salto, acción principal).&lt;/li&gt;\n&lt;li class=\&quot;task-list-item\&quot; style=\&quot;list-style-type: none;\&quot;&gt;&lt;input type=\&quot;checkbox\&quot; disabled style=\&quot;margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;\&quot;&gt; Lo probé en el motor con la cámara real.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Escenario&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li class=\&quot;task-list-item\&quot; style=\&quot;list-style-type: none;\&quot;&gt;&lt;input type=\&quot;checkbox\&quot; disabled style=\&quot;margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;\&quot;&gt; Hice un blockout y lo jugué antes de añadir arte.&lt;/li&gt;\n&lt;li class=\&quot;task-list-item\&quot; style=\&quot;list-style-type: none;\&quot;&gt;&lt;input type=\&quot;checkbox\&quot; disabled style=\&quot;margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;\&quot;&gt; Lo jugable se distingue de lo decorativo.&lt;/li&gt;\n&lt;li class=\&quot;task-list-item\&quot; style=\&quot;list-style-type: none;\&quot;&gt;&lt;input type=\&quot;checkbox\&quot; disabled style=\&quot;margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;\&quot;&gt; Tiene capas de profundidad y una guía visual clara.&lt;/li&gt;\n&lt;li class=\&quot;task-list-item\&quot; style=\&quot;list-style-type: none;\&quot;&gt;&lt;input type=\&quot;checkbox\&quot; disabled style=\&quot;margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;\&quot;&gt; La iluminación apoya la atmósfera.&lt;/li&gt;\n&lt;li class=\&quot;task-list-item\&quot; style=\&quot;list-style-type: none;\&quot;&gt;&lt;input type=\&quot;checkbox\&quot; disabled style=\&quot;margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;\&quot;&gt; Revisé el rendimiento.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Motor&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li class=\&quot;task-list-item\&quot; style=\&quot;list-style-type: none;\&quot;&gt;&lt;input type=\&quot;checkbox\&quot; disabled style=\&quot;margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;\&quot;&gt; Elegí según el tipo de proyecto, mi experiencia y mi equipo.&lt;/li&gt;\n&lt;li class=\&quot;task-list-item\&quot; style=\&quot;list-style-type: none;\&quot;&gt;&lt;input type=\&quot;checkbox\&quot; disabled style=\&quot;margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;\&quot;&gt; Revisé la licencia vigente.&lt;/li&gt;\n&lt;li class=\&quot;task-list-item\&quot; style=\&quot;list-style-type: none;\&quot;&gt;&lt;input type=\&quot;checkbox\&quot; disabled style=\&quot;margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;\&quot;&gt; Probé una escena sencilla antes de comprometerme.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template">
+    <div class="markdownTextIdeviceContent">
+            <div class="exe-markdown-activity">
+                <div class="markdown-body"><h1>Diseño de personajes y escenarios</h1>
+<h3>Y comparativa de motores (Godot, Unity y Unreal) aplicada a este caso</h3>
+<blockquote>
+  <p><strong>Nota:</strong> los datos de licencias se verificaron en noviembre de 2026. Revisa siempre los términos oficiales vigentes antes de lanzar un juego comercial.</p>
+</blockquote>
+<hr />
+<h2>Índice</h2>
+<ol>
+<li><a href="#1-diseño-de-personajes">Diseño de personajes</a></li>
+<li><a href="#2-diseño-de-escenarios">Diseño de escenarios</a></li>
+<li><a href="#3-cómo-se-complementan-personaje-y-escenario">Cómo se complementan personaje y escenario</a></li>
+<li><a href="#4-comparativa-de-motores-godot-vs-unity-vs-unreal">Comparativa de motores: Godot vs Unity vs Unreal</a></li>
+<li><a href="#5-cuál-elegir-según-tu-proyecto">¿Cuál elegir según tu proyecto?</a></li>
+<li><a href="#6-checklist-final">Checklist final</a></li>
+</ol>
+<hr />
+<h2>1. Diseño de personajes</h2>
+<p>Un personaje de videojuego no solo tiene que <em>verse bien</em>: tiene que <strong>funcionar jugando</strong>. El jugador debe reconocerlo en un segundo, entender qué rol tiene y sentir algo por él (simpatía, miedo, curiosidad).</p>
+<h3>1.1 Principios básicos</h3>
+<table>
+<thead>
+<tr>
+<th>Principio</th>
+<th>Qué significa</th>
+<th>Ejemplo práctico</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Silueta</strong></td>
+<td>Si rellenas el personaje de negro, debe seguir siendo reconocible</td>
+<td>Un héroe con capa larga y un enemigo con cuernos se distinguen al instante</td>
+</tr>
+<tr>
+<td><strong>Lenguaje de formas</strong></td>
+<td>Las formas transmiten personalidad</td>
+<td>Círculos = amistoso o inofensivo · Cuadrados = fuerte y estable · Triángulos = peligroso o ágil</td>
+</tr>
+<tr>
+<td><strong>Paleta de color</strong></td>
+<td>Pocos colores bien elegidos comunican mejor que muchos</td>
+<td>Protagonista con color que destaca del fondo; enemigos con una paleta propia</td>
+</tr>
+<tr>
+<td><strong>Legibilidad</strong></td>
+<td>Debe verse bien a poco tamaño y en movimiento</td>
+<td>Evita detalles diminutos que se pierden en pantalla</td>
+</tr>
+<tr>
+<td><strong>Coherencia</strong></td>
+<td>Mismo estilo que el resto del juego</td>
+<td>Un personaje realista en un mundo de dibujos animados rompe la estética</td>
+</tr>
+<tr>
+<td><strong>Personalidad visual</strong></td>
+<td>Postura, proporciones y rasgos cuentan quién es</td>
+<td>Hombros caídos y mirada baja transmiten cansancio o timidez</td>
+</tr>
+</tbody>
+</table>
+<h3>1.2 Proceso paso a paso</h3>
+<ol>
+<li><strong>Brief del personaje.</strong> Responde en pocas líneas: ¿quién es?, ¿qué rol cumple en el juego (jugador, aliado, enemigo, jefe)?, ¿qué quiere?, ¿cómo se mueve?</li>
+<li><strong>Referencias y moodboard.</strong> Reúne imágenes de personajes, ropa, animales o épocas que te inspiren. Cuida de usar las referencias como inspiración, no como copia.</li>
+<li><strong>Bocetos de silueta.</strong> Dibuja 10 o 15 siluetas rápidas y quédate con las 2 o 3 más distintas.</li>
+<li><strong>Refinamiento.</strong> Añade rasgos, ropa, accesorios y detalles solo sobre la silueta ganadora.</li>
+<li><strong>Hoja de modelo (<em>model sheet</em>).</strong> Es el plano del personaje y sirve de guía para toda la producción. Incluye:<ul>
+<li>vista frontal, lateral y trasera,</li>
+<li>expresiones faciales principales,</li>
+<li>paleta de colores definitiva,</li>
+<li>proporciones y tamaño comparado con otros elementos.</li></ul></li>
+<li><strong>Producción del arte.</strong><ul>
+<li><strong>2D:</strong> <em>sprites</em> (pixel art, dibujo a mano o vectorial) y hojas de animación.</li>
+<li><strong>3D:</strong> modelado, desenvolver UV, texturizado y <em>rigging</em> (crear el esqueleto).</li></ul></li>
+<li><strong>Animación.</strong> Empieza por lo mínimo necesario (ver tabla de abajo).</li>
+<li><strong>Prueba dentro del motor.</strong> Ponlo en un escenario de prueba, con la cámara real del juego, y comprueba que se lee bien.</li>
+</ol>
+<h3>1.3 Animaciones mínimas para un personaje jugable</h3>
+<table>
+<thead>
+<tr>
+<th>Animación</th>
+<th>Para qué sirve</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reposo (<em>idle</em>)</td>
+<td>Da vida al personaje cuando el jugador no hace nada</td>
+</tr>
+<tr>
+<td>Caminar / correr</td>
+<td>Comunica velocidad y peso</td>
+</tr>
+<tr>
+<td>Salto (subida, caída, aterrizaje)</td>
+<td>Da sensación de control y de gravedad</td>
+</tr>
+<tr>
+<td>Ataque o acción principal</td>
+<td>Es el verbo central del juego, debe ser claro y satisfactorio</td>
+</tr>
+<tr>
+<td>Daño</td>
+<td>Confirma al jugador que algo le ha golpeado</td>
+</tr>
+<tr>
+<td>Muerte o derrota</td>
+<td>Cierra la acción y da feedback</td>
+</tr>
+</tbody>
+</table>
+<h3>1.4 Errores comunes</h3>
+<ul>
+<li>Diseñar al personaje con demasiado detalle y luego no poder animarlo.</li>
+<li>Una silueta confusa que se mezcla con el fondo.</li>
+<li>Demasiados colores sin jerarquía visual.</li>
+<li>No pensar en cómo se verá desde la cámara real del juego.</li>
+<li>Empezar por el arte final antes de probar si el personaje <em>se siente bien</em> al moverse (primero usa una cápsula o un cuadrado).</li>
+</ul>
+<hr />
+<h2>2. Diseño de escenarios</h2>
+<p>Un escenario no es solo decoración. Cumple cuatro funciones a la vez:</p>
+<ul>
+<li><strong>Jugabilidad:</strong> define por dónde se puede ir, qué se puede escalar, dónde hay peligro.</li>
+<li><strong>Guía:</strong> ayuda al jugador a saber hacia dónde avanzar sin necesidad de flechas.</li>
+<li><strong>Ambiente:</strong> crea el clima emocional (calma, tensión, misterio, alegría).</li>
+<li><strong>Narrativa:</strong> cuenta la historia del lugar a través de objetos y detalles.</li>
+</ul>
+<h3>2.1 Principios básicos</h3>
+<table>
+<thead>
+<tr>
+<th>Principio</th>
+<th>Qué significa</th>
+<th>Ejemplo práctico</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Capas de profundidad</strong></td>
+<td>Primer plano, plano medio y fondo</td>
+<td>En 2D se logra con <em>parallax</em>; en 3D con objetos a distintas distancias</td>
+</tr>
+<tr>
+<td><strong>Guía visual</strong></td>
+<td>Luz, color y formas llevan la mirada</td>
+<td>Una luz cálida al final de un pasillo oscuro invita a avanzar</td>
+</tr>
+<tr>
+<td><strong>Legibilidad jugable</strong></td>
+<td>Lo que se puede pisar o tocar debe diferenciarse de lo decorativo</td>
+<td>Las plataformas con bordes claros; el fondo con menos contraste</td>
+</tr>
+<tr>
+<td><strong>Escala y ritmo</strong></td>
+<td>Alternar espacios abiertos y cerrados, calma y acción</td>
+<td>Un pasillo estrecho seguido de una sala grande genera impacto</td>
+</tr>
+<tr>
+<td><strong>Modularidad</strong></td>
+<td>Construir con piezas reutilizables</td>
+<td>Un kit de paredes, suelos y columnas permite crear muchos niveles</td>
+</tr>
+<tr>
+<td><strong>Iluminación</strong></td>
+<td>Define la atmósfera y destaca lo importante</td>
+<td>Luz fría para soledad, cálida para refugio</td>
+</tr>
+</tbody>
+</table>
+<h3>2.2 Proceso paso a paso</h3>
+<ol>
+<li><strong>Concepto y propósito del nivel.</strong> ¿Qué quiere que haga y sienta el jugador aquí?</li>
+<li><strong>Mapa o diagrama.</strong> Un dibujo a mano con el recorrido, los puntos de interés y los peligros.</li>
+<li><strong>Blockout o <em>greybox</em>.</strong> Construye el nivel solo con formas simples (cubos, planos, cilindros), <strong>sin arte</strong>. Es el paso más importante.</li>
+<li><strong>Prueba de jugabilidad.</strong> Juega el blockout. ¿Se entiende por dónde ir? ¿Los saltos son posibles? ¿Es divertido?</li>
+<li><strong>Arte final.</strong> Reemplaza las formas simples por modelos o <em>tiles</em> con textura.</li>
+<li><strong>Iluminación y efectos.</strong> Luces, niebla, partículas, sonido ambiente.</li>
+<li><strong>Optimización.</strong> Revisa el rendimiento, reduce lo que no se ve y ajusta la calidad.</li>
+</ol>
+<blockquote>
+  <p><strong>Regla de oro:</strong> si el nivel no es divertido en blockout, el arte no lo va a salvar.</p>
+</blockquote>
+<h3>2.3 Particularidades por tipo de juego</h3>
+<p><strong>Escenarios 2D</strong></p>
+<ul>
+<li>Se construyen con <strong>tilemaps</strong>: cuadrículas de piezas pequeñas que se repiten.</li>
+<li>Usa <strong>parallax</strong> (capas de fondo que se mueven a distinta velocidad) para dar profundidad.</li>
+<li>Cuida el contraste entre el fondo y el plano donde se mueve el personaje.</li>
+</ul>
+<p><strong>Escenarios 3D</strong></p>
+<ul>
+<li>Usa <strong>kits modulares</strong> para construir rápido y mantener coherencia.</li>
+<li>Trabaja el <strong>terreno</strong> (montañas, valles) y la <strong>vegetación</strong> con herramientas específicas del motor.</li>
+<li>La <strong>iluminación</strong> (directa, indirecta, sombras) cambia por completo la sensación del lugar.</li>
+<li>Reduce el costo gráfico con <strong>LOD</strong> (versiones simples de los objetos lejanos).</li>
+</ul>
+<h3>2.4 Errores comunes</h3>
+<ul>
+<li>Hacer un mundo enorme y vacío en lugar de uno pequeño y lleno de intención.</li>
+<li>Detalles que parecen interactivos pero no lo son (o al revés).</li>
+<li>Decorar antes de probar la jugabilidad.</li>
+<li>Ignorar la iluminación hasta el final.</li>
+<li>No pensar en el rendimiento del dispositivo donde se va a jugar.</li>
+</ul>
+<hr />
+<h2>3. Cómo se complementan personaje y escenario</h2>
+<table>
+<thead>
+<tr>
+<th>Aspecto</th>
+<th>Buena práctica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Contraste</strong></td>
+<td>El personaje debe destacar sobre el fondo: color, brillo o saturación distintos</td>
+</tr>
+<tr>
+<td><strong>Escala</strong></td>
+<td>Define una unidad de medida (por ejemplo, el personaje mide 2 metros) y construye todo en función de ella</td>
+</tr>
+<tr>
+<td><strong>Paleta</strong></td>
+<td>El escenario usa colores más apagados; el personaje y los elementos interactivos, más vivos</td>
+</tr>
+<tr>
+<td><strong>Estilo</strong></td>
+<td>Mismo nivel de detalle y mismo tipo de trazo o modelado en ambos</td>
+</tr>
+<tr>
+<td><strong>Animación y entorno</strong></td>
+<td>El mundo reacciona al personaje: hierba que se mueve, polvo al correr, sombras</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>4. Comparativa de motores: Godot vs Unity vs Unreal</h2>
+<p>Esta comparativa se centra en lo que importa <strong>para crear personajes y escenarios</strong>: herramientas 2D y 3D, animación, construcción de niveles, iluminación, importación de arte y costo.</p>
+<h3>4.1 Vista rápida</h3>
+<table>
+<thead>
+<tr>
+<th>Criterio</th>
+<th>Godot</th>
+<th>Unity</th>
+<th>Unreal Engine</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Licencia y costo</strong></td>
+<td>Gratuito y de código abierto (licencia MIT), sin regalías</td>
+<td><strong>Personal:</strong> gratis si tus ingresos y fondos de los últimos 12 meses son menores a 200 000 USD. Por encima, plan de pago</td>
+<td>Gratis; regalía del <strong>5 %</strong> sobre los ingresos brutos de un producto que superen el primer millón de dólares</td>
+</tr>
+<tr>
+<td><strong>Lenguaje principal</strong></td>
+<td>GDScript (muy sencillo); también C#</td>
+<td>C#</td>
+<td>Blueprints (visual) y C++</td>
+</tr>
+<tr>
+<td><strong>Curva de aprendizaje</strong></td>
+<td>Baja</td>
+<td>Media</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Peso y requisitos</strong></td>
+<td>Muy ligero</td>
+<td>Medio</td>
+<td>Exigente</td>
+</tr>
+<tr>
+<td><strong>Mejor para</strong></td>
+<td>2D, 3D estilizado, proyectos pequeños</td>
+<td>2D y 3D, móvil, proyectos de todo tamaño</td>
+<td>3D realista y de alta calidad visual</td>
+</tr>
+</tbody>
+</table>
+<h3>4.2 Personajes y animación</h3>
+<table>
+<thead>
+<tr>
+<th>Aspecto</th>
+<th>Godot</th>
+<th>Unity</th>
+<th>Unreal Engine</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Personajes 2D</strong></td>
+<td>Muy buena. Motor 2D dedicado, con nodos de sprites animados, esqueletos 2D y un editor de animación integrado</td>
+<td>Muy buena. Editor de sprites, paquete <em>2D Animation</em> para esqueletos y luces 2D</td>
+<td>Limitada. Tiene herramientas 2D (Paper2D), pero no es su fuerte</td>
+</tr>
+<tr>
+<td><strong>Personajes 3D</strong></td>
+<td>Buena. Esqueletos 3D, árbol de animación y retargeting básico</td>
+<td>Muy buena. Animator, rigs <em>Humanoid</em> con reutilización de animaciones, Timeline y Cinemachine</td>
+<td>Excelente. Control Rig, retargeting avanzado, Animation Blueprints y MetaHuman para humanos realistas</td>
+</tr>
+<tr>
+<td><strong>Facilidad para animar</strong></td>
+<td>Muy directa y visual</td>
+<td>Directa; muchos tutoriales</td>
+<td>Potente, pero con más conceptos que aprender</td>
+</tr>
+</tbody>
+</table>
+<h3>4.3 Escenarios y construcción de niveles</h3>
+<table>
+<thead>
+<tr>
+<th>Aspecto</th>
+<th>Godot</th>
+<th>Unity</th>
+<th>Unreal Engine</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Blockout rápido</strong></td>
+<td>Nodos CSG y GridMap</td>
+<td>ProBuilder</td>
+<td>Modeling Mode y herramientas de geometría</td>
+</tr>
+<tr>
+<td><strong>Tilemaps 2D</strong></td>
+<td>Excelente y muy intuitivo</td>
+<td>Muy bueno</td>
+<td>Limitado</td>
+</tr>
+<tr>
+<td><strong>Terrenos 3D</strong></td>
+<td>Más básico; existen <em>add-ons</em> de la comunidad</td>
+<td>Sistema Terrain integrado</td>
+<td>Muy avanzado: Landscape, vegetación y herramientas para mundos grandes</td>
+</tr>
+<tr>
+<td><strong>Iluminación</strong></td>
+<td>Buena (varias opciones de luz global)</td>
+<td>Muy buena; depende del pipeline gráfico (URP o HDRP)</td>
+<td>Excelente; destaca en realismo</td>
+</tr>
+<tr>
+<td><strong>Calidad visual realista</strong></td>
+<td>Media</td>
+<td>Alta con HDRP</td>
+<td>La más alta de las tres</td>
+</tr>
+</tbody>
+</table>
+<h3>4.4 Importación de arte y ecosistema</h3>
+<table>
+<thead>
+<tr>
+<th>Aspecto</th>
+<th>Godot</th>
+<th>Unity</th>
+<th>Unreal Engine</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Formatos 3D</strong></td>
+<td>glTF recomendado; también otros</td>
+<td>FBX y otros muy extendidos</td>
+<td>FBX y otros</td>
+</tr>
+<tr>
+<td><strong>Trabajo con Blender</strong></td>
+<td>Muy fluido con glTF</td>
+<td>Muy fluido</td>
+<td>Fluido</td>
+</tr>
+<tr>
+<td><strong>Tienda de recursos</strong></td>
+<td>Biblioteca de recursos de Godot (más pequeña)</td>
+<td>Unity Asset Store (muy amplia)</td>
+<td>Fab (muy amplia, con muchos recursos de alta calidad)</td>
+</tr>
+<tr>
+<td><strong>Comunidad y tutoriales</strong></td>
+<td>Creciente y muy activa</td>
+<td>Enorme</td>
+<td>Grande, enfocada en proyectos de alta calidad</td>
+</tr>
+</tbody>
+</table>
+<h3>4.5 Ventajas y desventajas resumidas</h3>
+<p><strong>Godot</strong></p>
+<ul>
+<li>✅ Gratis, ligero, rápido de aprender y excelente para 2D.</li>
+<li>✅ Sin regalías ni límites de ingresos.</li>
+<li>⚠️ Menos recursos y tutoriales que Unity; herramientas 3D de gran escala menos maduras.</li>
+<li>⚠️ Menos opciones oficiales para consolas.</li>
+</ul>
+<p><strong>Unity</strong></p>
+<ul>
+<li>✅ Equilibrio entre 2D y 3D, gran cantidad de tutoriales y recursos.</li>
+<li>✅ Muy usado en móvil y juegos independientes.</li>
+<li>⚠️ Revisa los límites de ingresos de la licencia gratuita.</li>
+<li>⚠️ Los distintos pipelines gráficos (URP, HDRP) pueden confundir al empezar.</li>
+</ul>
+<p><strong>Unreal Engine</strong></p>
+<ul>
+<li>✅ Calidad visual realista y herramientas muy potentes para escenarios grandes y personajes detallados.</li>
+<li>✅ Blueprints permite crear lógica sin programar.</li>
+<li>⚠️ Requiere un equipo potente y tiene una curva de aprendizaje más alta.</li>
+<li>⚠️ No es la opción habitual para juegos 2D.</li>
+</ul>
+<hr />
+<h2>5. ¿Cuál elegir según tu proyecto?</h2>
+<table>
+<thead>
+<tr>
+<th>Tu proyecto</th>
+<th>Recomendación</th>
+<th>Por qué</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Juego 2D con pixel art</td>
+<td><strong>Godot</strong> (o Unity)</td>
+<td>Herramientas 2D muy cómodas y proyectos ligeros</td>
+</tr>
+<tr>
+<td>Plataformas o aventura 2D con dibujo a mano</td>
+<td><strong>Godot</strong> o <strong>Unity</strong></td>
+<td>Ambos tienen buen soporte de animación de esqueletos 2D</td>
+</tr>
+<tr>
+<td>3D estilizado (low poly, cartoon)</td>
+<td><strong>Godot</strong> o <strong>Unity</strong></td>
+<td>Menor curva de aprendizaje y buen rendimiento</td>
+</tr>
+<tr>
+<td>3D realista con escenarios grandes</td>
+<td><strong>Unreal Engine</strong></td>
+<td>Iluminación, terrenos y personajes de alto nivel</td>
+</tr>
+<tr>
+<td>Juego para móvil</td>
+<td><strong>Unity</strong> (o Godot)</td>
+<td>Gran experiencia y recursos para móvil</td>
+</tr>
+<tr>
+<td>Tu primer juego, sin experiencia</td>
+<td><strong>Godot</strong> o <strong>Unity</strong></td>
+<td>Más fáciles de aprender y con muchísimo material</td>
+</tr>
+<tr>
+<td>Equipo pequeño con presupuesto cero</td>
+<td><strong>Godot</strong></td>
+<td>Sin costos ni condiciones de ingresos</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+  <p><strong>Consejo:</strong> no tardes meses decidiendo. Haz una escena simple (un personaje y un suelo) en dos motores, una tarde en cada uno, y quédate con el que te resulte más cómodo.</p>
+</blockquote>
+<hr />
+<h2>6. Checklist final</h2>
+<p><strong>Personaje</strong></p>
+<ul>
+<li class="task-list-item" style="list-style-type: none;"><input type="checkbox" disabled style="margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;"> La silueta se reconoce en negro.</li>
+<li class="task-list-item" style="list-style-type: none;"><input type="checkbox" disabled style="margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;"> Tiene una paleta corta y clara.</li>
+<li class="task-list-item" style="list-style-type: none;"><input type="checkbox" disabled style="margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;"> Hice una hoja de modelo (vistas, expresiones, colores).</li>
+<li class="task-list-item" style="list-style-type: none;"><input type="checkbox" disabled style="margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;"> Tengo las animaciones mínimas (reposo, caminar, salto, acción principal).</li>
+<li class="task-list-item" style="list-style-type: none;"><input type="checkbox" disabled style="margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;"> Lo probé en el motor con la cámara real.</li>
+</ul>
+<p><strong>Escenario</strong></p>
+<ul>
+<li class="task-list-item" style="list-style-type: none;"><input type="checkbox" disabled style="margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;"> Hice un blockout y lo jugué antes de añadir arte.</li>
+<li class="task-list-item" style="list-style-type: none;"><input type="checkbox" disabled style="margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;"> Lo jugable se distingue de lo decorativo.</li>
+<li class="task-list-item" style="list-style-type: none;"><input type="checkbox" disabled style="margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;"> Tiene capas de profundidad y una guía visual clara.</li>
+<li class="task-list-item" style="list-style-type: none;"><input type="checkbox" disabled style="margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;"> La iluminación apoya la atmósfera.</li>
+<li class="task-list-item" style="list-style-type: none;"><input type="checkbox" disabled style="margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;"> Revisé el rendimiento.</li>
+</ul>
+<p><strong>Motor</strong></p>
+<ul>
+<li class="task-list-item" style="list-style-type: none;"><input type="checkbox" disabled style="margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;"> Elegí según el tipo de proyecto, mi experiencia y mi equipo.</li>
+<li class="task-list-item" style="list-style-type: none;"><input type="checkbox" disabled style="margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;"> Revisé la licencia vigente.</li>
+<li class="task-list-item" style="list-style-type: none;"><input type="checkbox" disabled style="margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;"> Probé una escena sencilla antes de comprometerme.</li>
+</ul><p class="clearfix"></p></div>
+            </div></div>
+</div>
+
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/minijuego.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/sopa-de-letras-conceptos.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

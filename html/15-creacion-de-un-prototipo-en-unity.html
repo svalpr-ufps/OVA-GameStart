@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mw4n5wwd-10883diqt">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>1.5 Creación de un prototipo en Unity | GameStart: Tu primer videojuego</title>
+<link rel="icon" type="image/x-icon" href="../theme/img/favicon.ico">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/markdown-text/markdown-text.js"></script><link rel="stylesheet" href="../idevices/markdown-text/markdown-text.css">
+<script src="../libs/exe_highlighter/exe_highlighter.js"> </script>
+<link rel="stylesheet" href="../libs/exe_highlighter/exe_highlighter.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mw4n5wwd-10883diqt" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Introducción</a>
+</li>
+<li> <a href="../html/1-primeros-pasos-para-crear-un-videojuego.html" class="daddy">1. Primeros pasos para crear un videojuego</a>
+<ul class="other-section">
+<li> <a href="../html/quiz-diagnostico.html" class="no-ch">Quiz Diagnostico</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/11-que-es-un-videojuego.html" class="no-ch">1.1 ¿Qué es un videojuego?</a>
+</li>
+<li> <a href="../html/12-motores-de-desarrollo.html" class="daddy">1.2 Motores de desarrollo</a>
+<ul class="other-section">
+<li> <a href="../html/cuestionario-motores-de-desarrollo.html" class="no-ch">Cuestionario Motores de Desarrollo</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/13-elementos-basicos-de-un-juego.html" class="daddy">1.3 Elementos básicos de un juego</a>
+<ul class="other-section">
+<li> <a href="../html/crucigrama-elementos-de-un-videojuego.html" class="no-ch">Crucigrama elementos de un videojuego</a>
+</li>
+<li> <a href="../html/minijuego.html" class="no-ch">Minijuego</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/14-diseno-de-personajes-y-escenarios.html" class="daddy">1.4 Diseño de personajes y escenarios</a>
+<ul class="other-section">
+<li> <a href="../html/sopa-de-letras-conceptos.html" class="daddy">Sopa de letras conceptos</a>
+<ul class="other-section">
+<li> <a href="../html/galeria-de-sprites.html" class="no-ch">Galeria de Sprites</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="active"> <a href="../html/15-creacion-de-un-prototipo-en-unity.html" class="active no-ch">1.5 Creación de un prototipo en Unity</a>
+</li>
+</ul>
+</nav><main id="page-mw4n5wwd-10883diqt" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">GameStart: Tu primer videojuego</p></div>
+<div class="page-header"><h1 class="page-title">1.5 Creación de un prototipo en Unity</h1></div>
+</header><div id="page-content-page-mw4n5wwd-10883diqt" class="page-content">
+<article id="block-mw4qzcdz-s7zaber8p" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1793955828598-lenxcf4vy" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1793955828598-lenxcf4vy&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupamiento&quot;,&quot;markdownTextarea&quot;:&quot;# Introducción al desarrollo de videojuegos\n### Con guía práctica: tu primera escena en Unity (personaje + escenario)\n\n&gt; **Tiempo estimado de la guía práctica:** 30 a 45 minutos.\n\n---\n\n## Índice\n\n**Parte 1: Introducción**\n1. [¿Qué es desarrollar un videojuego?](#1-qué-es-desarrollar-un-videojuego)\n2. [Elementos básicos de un videojuego](#2-elementos-básicos-de-un-videojuego)\n3. [Fases del desarrollo](#3-fases-del-desarrollo)\n4. [Roles en un equipo](#4-roles-en-un-equipo)\n5. [Herramientas esenciales](#5-herramientas-esenciales)\n6. [Cómo elegir tu primer proyecto](#6-cómo-elegir-tu-primer-proyecto)\n7. [Ruta de aprendizaje sugerida](#7-ruta-de-aprendizaje-sugerida)\n\n**Parte 2: Guía práctica en Unity**\n8. [Qué vas a construir](#8-qué-vas-a-construir)\n9. [Paso 0: instalar Unity](#paso-0-instalar-unity)\n10. [Paso 1: crear el proyecto](#paso-1-crear-el-proyecto)\n11. [Paso 2: conocer el editor](#paso-2-conocer-el-editor)\n12. [Paso 3: construir el escenario](#paso-3-construir-el-escenario)\n13. [Paso 4: crear el personaje](#paso-4-crear-el-personaje)\n14. [Paso 5: programar el movimiento](#paso-5-programar-el-movimiento)\n15. [Paso 6: configurar la cámara](#paso-6-configurar-la-cámara)\n16. [Paso 7: probar y guardar](#paso-7-probar-y-guardar)\n17. [Solución de problemas](#solución-de-problemas)\n18. [Siguientes pasos](#siguientes-pasos)\n19. [Glosario](#glosario)\n\n---\n\n# PARTE 1: INTRODUCCIÓN\n\n## 1. ¿Qué es desarrollar un videojuego?\n\nDesarrollar un videojuego es combinar **diseño, arte, sonido y programación** para crear una experiencia con la que el jugador puede interactuar. No hace falta dominar todo a la vez: los juegos independientes muchas veces los hace una sola persona aprendiendo una pieza tras otra.\n\nLa idea clave: **un videojuego es un conjunto de piezas pequeñas que trabajan juntas**. Si aprendes cada pieza por separado, el conjunto deja de intimidar.\n\n---\n\n## 2. Elementos básicos de un videojuego\n\n| Elemento | Qué es | Ejemplo |\n|---|---|---|\n| **Mecánicas** | Las acciones que puede hacer el jugador | Saltar, disparar, construir, conducir |\n| **Reglas** | Los límites del juego | No puedes atravesar paredes; tienes tres vidas |\n| **Objetivo** | Lo que el jugador intenta lograr | Llegar a la meta, sobrevivir, resolver un enigma |\n| **Desafío y recompensa** | Dificultad creciente y premios por superarla | Un jefe difícil que da un objeto nuevo |\n| **Retroalimentación (*feedback*)** | La respuesta del juego a lo que haces | Sonido y animación al recoger una moneda |\n| **Arte** | Personajes, escenarios, objetos y efectos | Sprites 2D o modelos 3D |\n| **Audio** | Música y efectos de sonido | Música de tensión en una pelea |\n| **Interfaz (UI)** | Lo que muestra información al jugador | Barra de vida, menú, inventario |\n| **Niveles o escenas** | Los espacios donde ocurre el juego | Un bosque, una mazmorra, una ciudad |\n| **Narrativa** | La historia y su contexto (opcional, pero común) | Un héroe que busca a su familia |\n\n### Componentes técnicos (lo que no se ve)\n\n- **Bucle del juego (*game loop*):** ciclo que se repite muchas veces por segundo: lee las entradas, actualiza el mundo y dibuja la pantalla.\n- **Entradas:** teclado, mando, pantalla táctil.\n- **Física y colisiones:** deciden si algo cae, rebota o choca.\n- **Inteligencia artificial:** controla enemigos y aliados.\n- **Escenas y objetos:** el motor organiza el juego en escenas que contienen objetos, y cada objeto tiene componentes y scripts.\n- **Datos y guardado:** puntuación, progreso, configuración.\n\n---\n\n## 3. Fases del desarrollo\n\n1. **Idea y concepto.** Resume el juego en una frase.\n2. **Preproducción.** Diseña las mecánicas, haz un prototipo básico y decide el estilo visual.\n3. **Producción.** Construye el juego: niveles, personajes, sonido, interfaz.\n4. **Pruebas.** Juega, busca errores y pide a otras personas que lo prueben.\n5. **Lanzamiento.** Publica en una plataforma (por ejemplo, itch.io, Steam o tiendas móviles).\n6. **Postlanzamiento.** Corrige errores, escucha comentarios y mejora.\n\n---\n\n## 4. Roles en un equipo\n\n| Rol | Qué hace |\n|---|---|\n| **Diseñador de juego** | Define mecánicas, reglas, niveles y la experiencia general |\n| **Programador** | Hace que todo funcione mediante código |\n| **Artista** | Crea personajes, escenarios, animaciones e interfaz |\n| **Diseñador de sonido y música** | Crea la identidad sonora |\n| **QA (control de calidad)** | Busca errores y problemas de jugabilidad |\n| **Productor** | Organiza tiempos, tareas y comunicación |\n\n&gt; En proyectos independientes, una sola persona suele cumplir varios roles a la vez.\n\n---\n\n## 5. Herramientas esenciales\n\n| Necesidad | Opciones habituales |\n|---|---|\n| **Motor de juego** | Godot, Unity, Unreal Engine |\n| **Editor de código** | Visual Studio Code, Visual Studio, JetBrains Rider |\n| **Arte 2D** | Krita, Aseprite (pixel art), GIMP |\n| **Modelado 3D** | Blender |\n| **Audio** | Audacity, LMMS |\n| **Control de versiones** | Git (con GitHub o GitLab) para guardar el historial del proyecto |\n| **Organización** | Trello, Notion u hojas de cálculo |\n\n---\n\n## 6. Cómo elegir tu primer proyecto\n\n**La regla más importante: empieza pequeño.**\n\n- Debe poder explicarse **en una frase**.\n- Debe tener **una sola mecánica principal**.\n- Debe poder terminarse en **semanas, no en años**.\n\n**Buenos primeros proyectos:** un juego de esquivar obstáculos, un plataformas de un solo nivel, un juego de recolectar monedas, una versión simple de Pong o Snake.\n\n**Malos primeros proyectos:** un mundo abierto, un juego multijugador online, un RPG largo con historia.\n\n---\n\n## 7. Ruta de aprendizaje sugerida\n\n| Etapa | Qué hacer |\n|---|---|\n| **Semana 1** | Instalar el motor y completar la guía práctica de este documento |\n| **Semanas 2 y 3** | Aprender lo básico de programación: variables, condiciones, bucles y funciones |\n| **Semanas 4 a 6** | Seguir un tutorial oficial hasta terminar un juego completo y pequeño |\n| **Mes 2** | Hacer tu propio mini-juego con una idea original |\n| **Mes 3 en adelante** | Publicar en itch.io, recibir comentarios y empezar un segundo proyecto |\n\n---\n\n# PARTE 2: GUÍA PRÁCTICA EN UNITY\n\n## 8. Qué vas a construir\n\nAl terminar tendrás una escena en 3D con:\n\n- un **escenario**: suelo, una plataforma y un muro,\n- un **personaje** (una cápsula) que se mueve con **W A S D** y salta con la **barra espaciadora**,\n- una **cámara** que lo sigue.\n\n&gt; Esta guía está pensada para **Unity 6**. Los menús pueden variar ligeramente en otras versiones.\n\n---\n\n## Paso 0: instalar Unity\n\n1. Entra en la página oficial de Unity y descarga **Unity Hub**.\n2. Instálalo e inicia sesión (o crea una cuenta gratuita).\n3. Activa la licencia **Unity Personal**, que es gratuita mientras tus ingresos y fondos de los últimos 12 meses sean menores a 200 000 USD.\n4. En Unity Hub, ve a **Installs → Install Editor** y elige una versión de **Unity 6** (recomendada la marcada como LTS).\n5. Espera a que termine la instalación. Para esta guía no necesitas módulos adicionales.\n\n---\n\n## Paso 1: crear el proyecto\n\n1. En Unity Hub, pulsa **Projects → New project**.\n2. Elige la plantilla **Universal 3D** (usa el pipeline gráfico URP, el más recomendable para empezar).\n3. Ponle un nombre, por ejemplo `MiPrimerJuego`, y elige dónde guardarlo.\n4. Pulsa **Create project** y espera. La primera vez puede tardar unos minutos.\n\n✅ **Comprobación:** se abre el editor con una escena llamada `SampleScene`.\n\n---\n\n## Paso 2: conocer el editor\n\n| Panel | Para qué sirve |\n|---|---|\n| **Hierarchy** (izquierda) | Lista de todos los objetos de la escena |\n| **Scene** (centro) | Vista donde colocas y mueves los objetos |\n| **Game** (pestaña junto a Scene) | Lo que verá el jugador a través de la cámara |\n| **Inspector** (derecha) | Propiedades y componentes del objeto seleccionado |\n| **Project** (abajo) | Los archivos del proyecto (scripts, materiales, etc.) |\n| **Console** (abajo) | Mensajes y errores |\n\n**Controles útiles en la vista Scene**\n- **Clic derecho mantenido + mover el ratón:** girar la vista (con **W A S D** para moverte).\n- **Rueda del ratón:** acercar o alejar.\n- **Clic en un objeto y tecla F:** centrar la vista en él.\n- **Herramientas de transformación** (barra superior): mover (**W**), rotar (**E**), escalar (**R**).\n\n&gt; En el editor, W, E y R seleccionan herramientas solo cuando no estás manteniendo el clic derecho.\n\n---\n\n## Paso 3: construir el escenario\n\n### 3.1 El suelo\n\n1. En **Hierarchy**, clic derecho → **3D Object → Plane**.\n2. Renómbralo a `Suelo` (selecciónalo y pulsa **F2**).\n3. En el **Inspector**, en **Transform**, pon:\n   - Position: `0, 0, 0`\n   - Scale: `3, 1, 3`\n\n&gt; Un *Plane* mide 10 × 10 unidades por defecto, así que con escala 3 tendrás un suelo de 30 × 30.\n\n### 3.2 Dar color al suelo\n\n1. En el panel **Project**, clic derecho sobre la carpeta **Assets → Create → Material**.\n2. Llámalo `MatSuelo`.\n3. Selecciónalo y, en el Inspector, haz clic en el selector de color de **Base Map** y elige un verde o gris.\n4. Arrastra el material desde el panel Project hasta el objeto `Suelo`.\n\n### 3.3 Una plataforma y un muro\n\nCrea dos **Cubes** (clic derecho en Hierarchy → **3D Object → Cube**) y configúralos así:\n\n| Nombre | Position | Scale |\n|---|---|---|\n| `Plataforma` | `-5, 0.5, 4` | `4, 1, 4` |\n| `Muro` | `0, 1.5, 10` | `10, 3, 1` |\n\n&gt; Un cubo mide 1 unidad de alto. Para que apoye exactamente sobre el suelo, su posición en Y debe ser la mitad de su altura.\n\nCrea otro material, por ejemplo `MatObjetos`, con un color distinto, y arrástralo a la plataforma y al muro.\n\n✅ **Comprobación:** en la vista Scene ves un suelo grande, una plataforma baja y un muro al fondo.\n\n---\n\n## Paso 4: crear el personaje\n\n1. Clic derecho en Hierarchy → **3D Object → Capsule**.\n2. Renómbralo a `Jugador`.\n3. En el Inspector, en **Transform**, pon Position: `0, 1, 0`.\n   &gt; Una cápsula mide 2 unidades de alto, por eso su centro va en Y = 1 para apoyar en el suelo.\n4. Pulsa **Add Component**, busca **Rigidbody** y añádelo. Este componente le da física (gravedad y colisiones).\n5. En el componente Rigidbody, despliega **Constraints** y marca **Freeze Rotation** en X, Y y Z. Así el personaje no se cae de lado.\n6. Crea un material `MatJugador` con un color que destaque (por ejemplo, naranja o azul) y arrástralo al jugador.\n\n✅ **Comprobación:** pulsa **Play** (▶). La cápsula debería quedarse apoyada sobre el suelo. Vuelve a pulsar Play para detener.\n\n---\n\n## Paso 5: programar el movimiento\n\n### 5.1 Crear el script\n\n1. En el panel **Project**, clic derecho en **Assets → Create → Scripting → MonoBehaviour Script**.\n2. Llámalo exactamente `PlayerMovement` (el nombre del archivo debe coincidir con el de la clase).\n3. Haz doble clic para abrirlo en tu editor de código.\n\n### 5.2 Escribir el código\n\nBorra el contenido y pega esto:\n\n```csharp\nusing UnityEngine;\nusing UnityEngine.InputSystem;\n\npublic class PlayerMovement : MonoBehaviour\n{\n    [Header(\&quot;Movimiento\&quot;)]\n    public float speed = 5f;       // velocidad al caminar\n    public float jumpForce = 6f;   // fuerza del salto\n\n    private Rigidbody rb;\n    private bool grounded;\n\n    void Awake()\n    {\n        rb = GetComponent&lt;Rigidbody&gt;();\n    }\n\n    void Update()\n    {\n        var kb = Keyboard.current;\n        if (kb == null) return;\n\n        // Salto: solo si está tocando el suelo\n        if (kb.spaceKey.wasPressedThisFrame &amp;&amp; grounded)\n        {\n            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);\n        }\n    }\n\n    void FixedUpdate()\n    {\n        var kb = Keyboard.current;\n        if (kb == null) return;\n\n        // Leer las teclas W A S D\n        float x = (kb.dKey.isPressed ? 1f : 0f) - (kb.aKey.isPressed ? 1f : 0f);\n        float z = (kb.wKey.isPressed ? 1f : 0f) - (kb.sKey.isPressed ? 1f : 0f);\n\n        // Mover en horizontal y respetar la velocidad vertical (gravedad y salto)\n        Vector3 move = new Vector3(x, 0f, z).normalized * speed;\n        rb.linearVelocity = new Vector3(move.x, rb.linearVelocity.y, move.z);\n    }\n\n    void OnCollisionStay(Collision collision) { grounded = true; }\n    void OnCollisionExit(Collision collision) { grounded = false; }\n}\n```\n\nGuarda el archivo (**Ctrl + S**) y vuelve a Unity.\n\n&gt; **Si usas Unity 2022 LTS o anterior:** cambia `rb.linearVelocity` por `rb.velocity`.\n\n### 5.3 Asignar el script al personaje\n\nArrastra el script `PlayerMovement` desde el panel Project hasta el objeto `Jugador` en la Hierarchy. También puedes seleccionar el jugador y usar **Add Component → PlayerMovement**.\n\n✅ **Comprobación:** al seleccionar `Jugador`, en el Inspector aparece el componente **Player Movement** con los valores `Speed` y `Jump Force`.\n\n---\n\n## Paso 6: configurar la cámara\n\nLa forma más sencilla de que la cámara siga al personaje es hacerla **hija** del jugador.\n\n1. En Hierarchy, arrastra **Main Camera** y suéltala encima de `Jugador`. Quedará anidada debajo.\n2. Selecciona **Main Camera** y, en Transform, pon:\n   - Position: `0, 5, -8`\n   - Rotation: `30, 0, 0`\n\n&gt; Como el Rigidbody tiene la rotación congelada, la cámara no girará con el personaje y se mantendrá siempre detrás y arriba de él.\n\n---\n\n## Paso 7: probar y guardar\n\n1. Pulsa **Play** (▶).\n2. Haz clic dentro de la ventana **Game** para que reciba el teclado.\n3. Muévete con **W A S D** y salta con **Espacio**.\n4. Intenta subirte a la plataforma.\n5. Pulsa **Play** de nuevo para detener.\n6. Guarda la escena con **Ctrl + S** (o **File → Save**).\n\n🎉 **¡Listo!** Ya tienes tu primera escena jugable con personaje y escenario.\n\n&gt; **Importante:** los cambios que hagas **mientras el juego está en Play** se pierden al detenerlo. Detén siempre el juego antes de editar.\n\n---\n\n## Solución de problemas\n\n| Problema | Posible causa y solución |\n|---|---|\n| El personaje se hunde o cae al vacío | Revisa que `Suelo` tenga su collider (viene por defecto) y que el jugador esté en Y = 1 |\n| El personaje no se mueve | Comprueba que el script esté asignado al `Jugador` y haz clic dentro de la ventana Game antes de pulsar teclas |\n| Error: *The class name doesn't match the file name* | El script debe llamarse exactamente `PlayerMovement` |\n| Error de entrada (*InvalidOperationException* sobre el Input) | Ve a **Edit → Project Settings → Player → Other Settings → Configuration** y en **Active Input Handling** elige **Input System Package (New)** o **Both** |\n| El personaje se cae de lado | Marca **Freeze Rotation** en X, Y y Z del Rigidbody |\n| No puede saltar | El salto solo funciona si está tocando algo; comprueba que haya colisión con el suelo |\n| La cámara no sigue al jugador | Asegúrate de que **Main Camera** esté anidada debajo de `Jugador` en la Hierarchy |\n| Los materiales se ven rosados | El material no es compatible con el pipeline; crea el material desde Assets y usa el shader **Universal Render Pipeline/Lit** |\n\n---\n\n## Siguientes pasos\n\nUna vez tengas esto funcionando, prueba añadir, de uno en uno:\n\n1. **Monedas** que desaparezcan al tocarlas (usa un *Collider* con **Is Trigger** y un script con `OnTriggerEnter`).\n2. **Un contador de puntos** con un texto en pantalla (UI).\n3. **Sonidos**: un efecto al saltar y otro al recoger monedas.\n4. **Un personaje con modelo y animaciones** (importa un modelo desde Blender o desde recursos gratuitos).\n5. **Una cámara más avanzada** con el paquete **Cinemachine**.\n6. **Un objetivo y una pantalla de victoria**, para convertir la escena en un juego completo.\n\n---\n\n## Glosario\n\n| Término | Significado |\n|---|---|\n| **Escena (*Scene*)** | Un nivel o pantalla del juego |\n| **GameObject** | Cualquier objeto dentro de una escena |\n| **Componente** | Pieza que da una función a un objeto (física, luz, script...) |\n| **Transform** | Posición, rotación y escala de un objeto |\n| **Rigidbody** | Componente que le da física a un objeto |\n| **Collider** | Forma invisible que detecta colisiones |\n| **Material** | Define el color y aspecto de la superficie de un objeto |\n| **Script** | Archivo de código que da comportamiento a un objeto |\n| **Prefab** | Objeto guardado como plantilla para reutilizar |\n| **Hierarchy / Inspector / Project** | Paneles principales del editor de Unity |\n| **Pipeline gráfico (URP)** | Sistema que decide cómo se dibujan los gráficos |\n| **Blockout** | Versión inicial de un nivel con formas simples, sin arte |&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar retroalimentación&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;h1&gt;Introducción al desarrollo de videojuegos&lt;/h1&gt;\n&lt;h3&gt;Con guía práctica: tu primera escena en Unity (personaje + escenario)&lt;/h3&gt;\n&lt;blockquote&gt;\n  &lt;p&gt;&lt;strong&gt;Tiempo estimado de la guía práctica:&lt;/strong&gt; 30 a 45 minutos.&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;hr /&gt;\n&lt;h2&gt;Índice&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Parte 1: Introducción&lt;/strong&gt;&lt;/p&gt;\n&lt;ol&gt;\n&lt;li&gt;&lt;a href=\&quot;#1-qué-es-desarrollar-un-videojuego\&quot;&gt;¿Qué es desarrollar un videojuego?&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#2-elementos-básicos-de-un-videojuego\&quot;&gt;Elementos básicos de un videojuego&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#3-fases-del-desarrollo\&quot;&gt;Fases del desarrollo&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#4-roles-en-un-equipo\&quot;&gt;Roles en un equipo&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#5-herramientas-esenciales\&quot;&gt;Herramientas esenciales&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#6-cómo-elegir-tu-primer-proyecto\&quot;&gt;Cómo elegir tu primer proyecto&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#7-ruta-de-aprendizaje-sugerida\&quot;&gt;Ruta de aprendizaje sugerida&lt;/a&gt;&lt;/li&gt;\n&lt;/ol&gt;\n&lt;p&gt;&lt;strong&gt;Parte 2: Guía práctica en Unity&lt;/strong&gt;&lt;/p&gt;\n&lt;ol start=\&quot;8\&quot;&gt;\n&lt;li&gt;&lt;a href=\&quot;#8-qué-vas-a-construir\&quot;&gt;Qué vas a construir&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#paso-0-instalar-unity\&quot;&gt;Paso 0: instalar Unity&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#paso-1-crear-el-proyecto\&quot;&gt;Paso 1: crear el proyecto&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#paso-2-conocer-el-editor\&quot;&gt;Paso 2: conocer el editor&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#paso-3-construir-el-escenario\&quot;&gt;Paso 3: construir el escenario&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#paso-4-crear-el-personaje\&quot;&gt;Paso 4: crear el personaje&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#paso-5-programar-el-movimiento\&quot;&gt;Paso 5: programar el movimiento&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#paso-6-configurar-la-cámara\&quot;&gt;Paso 6: configurar la cámara&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#paso-7-probar-y-guardar\&quot;&gt;Paso 7: probar y guardar&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#solución-de-problemas\&quot;&gt;Solución de problemas&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#siguientes-pasos\&quot;&gt;Siguientes pasos&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#glosario\&quot;&gt;Glosario&lt;/a&gt;&lt;/li&gt;\n&lt;/ol&gt;\n&lt;hr /&gt;\n&lt;h1&gt;PARTE 1: INTRODUCCIÓN&lt;/h1&gt;\n&lt;h2&gt;1. ¿Qué es desarrollar un videojuego?&lt;/h2&gt;\n&lt;p&gt;Desarrollar un videojuego es combinar &lt;strong&gt;diseño, arte, sonido y programación&lt;/strong&gt; para crear una experiencia con la que el jugador puede interactuar. No hace falta dominar todo a la vez: los juegos independientes muchas veces los hace una sola persona aprendiendo una pieza tras otra.&lt;/p&gt;\n&lt;p&gt;La idea clave: &lt;strong&gt;un videojuego es un conjunto de piezas pequeñas que trabajan juntas&lt;/strong&gt;. Si aprendes cada pieza por separado, el conjunto deja de intimidar.&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h2&gt;2. Elementos básicos de un videojuego&lt;/h2&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Elemento&lt;/th&gt;\n&lt;th&gt;Qué es&lt;/th&gt;\n&lt;th&gt;Ejemplo&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Mecánicas&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Las acciones que puede hacer el jugador&lt;/td&gt;\n&lt;td&gt;Saltar, disparar, construir, conducir&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Reglas&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Los límites del juego&lt;/td&gt;\n&lt;td&gt;No puedes atravesar paredes; tienes tres vidas&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Objetivo&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Lo que el jugador intenta lograr&lt;/td&gt;\n&lt;td&gt;Llegar a la meta, sobrevivir, resolver un enigma&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Desafío y recompensa&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Dificultad creciente y premios por superarla&lt;/td&gt;\n&lt;td&gt;Un jefe difícil que da un objeto nuevo&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Retroalimentación (&lt;em&gt;feedback&lt;/em&gt;)&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;La respuesta del juego a lo que haces&lt;/td&gt;\n&lt;td&gt;Sonido y animación al recoger una moneda&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Arte&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Personajes, escenarios, objetos y efectos&lt;/td&gt;\n&lt;td&gt;Sprites 2D o modelos 3D&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Audio&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Música y efectos de sonido&lt;/td&gt;\n&lt;td&gt;Música de tensión en una pelea&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Interfaz (UI)&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Lo que muestra información al jugador&lt;/td&gt;\n&lt;td&gt;Barra de vida, menú, inventario&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Niveles o escenas&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Los espacios donde ocurre el juego&lt;/td&gt;\n&lt;td&gt;Un bosque, una mazmorra, una ciudad&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Narrativa&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;La historia y su contexto (opcional, pero común)&lt;/td&gt;\n&lt;td&gt;Un héroe que busca a su familia&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;h3&gt;Componentes técnicos (lo que no se ve)&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Bucle del juego (&lt;em&gt;game loop&lt;/em&gt;):&lt;/strong&gt; ciclo que se repite muchas veces por segundo: lee las entradas, actualiza el mundo y dibuja la pantalla.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Entradas:&lt;/strong&gt; teclado, mando, pantalla táctil.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Física y colisiones:&lt;/strong&gt; deciden si algo cae, rebota o choca.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Inteligencia artificial:&lt;/strong&gt; controla enemigos y aliados.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Escenas y objetos:&lt;/strong&gt; el motor organiza el juego en escenas que contienen objetos, y cada objeto tiene componentes y scripts.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Datos y guardado:&lt;/strong&gt; puntuación, progreso, configuración.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;hr /&gt;\n&lt;h2&gt;3. Fases del desarrollo&lt;/h2&gt;\n&lt;ol&gt;\n&lt;li&gt;&lt;strong&gt;Idea y concepto.&lt;/strong&gt; Resume el juego en una frase.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Preproducción.&lt;/strong&gt; Diseña las mecánicas, haz un prototipo básico y decide el estilo visual.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Producción.&lt;/strong&gt; Construye el juego: niveles, personajes, sonido, interfaz.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Pruebas.&lt;/strong&gt; Juega, busca errores y pide a otras personas que lo prueben.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Lanzamiento.&lt;/strong&gt; Publica en una plataforma (por ejemplo, itch.io, Steam o tiendas móviles).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Postlanzamiento.&lt;/strong&gt; Corrige errores, escucha comentarios y mejora.&lt;/li&gt;\n&lt;/ol&gt;\n&lt;hr /&gt;\n&lt;h2&gt;4. Roles en un equipo&lt;/h2&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Rol&lt;/th&gt;\n&lt;th&gt;Qué hace&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Diseñador de juego&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Define mecánicas, reglas, niveles y la experiencia general&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Programador&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Hace que todo funcione mediante código&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Artista&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Crea personajes, escenarios, animaciones e interfaz&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Diseñador de sonido y música&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Crea la identidad sonora&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;QA (control de calidad)&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Busca errores y problemas de jugabilidad&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Productor&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Organiza tiempos, tareas y comunicación&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;blockquote&gt;\n  &lt;p&gt;En proyectos independientes, una sola persona suele cumplir varios roles a la vez.&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;hr /&gt;\n&lt;h2&gt;5. Herramientas esenciales&lt;/h2&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Necesidad&lt;/th&gt;\n&lt;th&gt;Opciones habituales&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Motor de juego&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Godot, Unity, Unreal Engine&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Editor de código&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Visual Studio Code, Visual Studio, JetBrains Rider&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Arte 2D&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Krita, Aseprite (pixel art), GIMP&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Modelado 3D&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Blender&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Audio&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Audacity, LMMS&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Control de versiones&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Git (con GitHub o GitLab) para guardar el historial del proyecto&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Organización&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Trello, Notion u hojas de cálculo&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;hr /&gt;\n&lt;h2&gt;6. Cómo elegir tu primer proyecto&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;La regla más importante: empieza pequeño.&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Debe poder explicarse &lt;strong&gt;en una frase&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;Debe tener &lt;strong&gt;una sola mecánica principal&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;Debe poder terminarse en &lt;strong&gt;semanas, no en años&lt;/strong&gt;.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Buenos primeros proyectos:&lt;/strong&gt; un juego de esquivar obstáculos, un plataformas de un solo nivel, un juego de recolectar monedas, una versión simple de Pong o Snake.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Malos primeros proyectos:&lt;/strong&gt; un mundo abierto, un juego multijugador online, un RPG largo con historia.&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h2&gt;7. Ruta de aprendizaje sugerida&lt;/h2&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Etapa&lt;/th&gt;\n&lt;th&gt;Qué hacer&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Semana 1&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Instalar el motor y completar la guía práctica de este documento&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Semanas 2 y 3&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Aprender lo básico de programación: variables, condiciones, bucles y funciones&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Semanas 4 a 6&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Seguir un tutorial oficial hasta terminar un juego completo y pequeño&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Mes 2&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Hacer tu propio mini-juego con una idea original&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Mes 3 en adelante&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Publicar en itch.io, recibir comentarios y empezar un segundo proyecto&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;hr /&gt;\n&lt;h1&gt;PARTE 2: GUÍA PRÁCTICA EN UNITY&lt;/h1&gt;\n&lt;h2&gt;8. Qué vas a construir&lt;/h2&gt;\n&lt;p&gt;Al terminar tendrás una escena en 3D con:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;un &lt;strong&gt;escenario&lt;/strong&gt;: suelo, una plataforma y un muro,&lt;/li&gt;\n&lt;li&gt;un &lt;strong&gt;personaje&lt;/strong&gt; (una cápsula) que se mueve con &lt;strong&gt;W A S D&lt;/strong&gt; y salta con la &lt;strong&gt;barra espaciadora&lt;/strong&gt;,&lt;/li&gt;\n&lt;li&gt;una &lt;strong&gt;cámara&lt;/strong&gt; que lo sigue.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;blockquote&gt;\n  &lt;p&gt;Esta guía está pensada para &lt;strong&gt;Unity 6&lt;/strong&gt;. Los menús pueden variar ligeramente en otras versiones.&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;hr /&gt;\n&lt;h2&gt;Paso 0: instalar Unity&lt;/h2&gt;\n&lt;ol&gt;\n&lt;li&gt;Entra en la página oficial de Unity y descarga &lt;strong&gt;Unity Hub&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;Instálalo e inicia sesión (o crea una cuenta gratuita).&lt;/li&gt;\n&lt;li&gt;Activa la licencia &lt;strong&gt;Unity Personal&lt;/strong&gt;, que es gratuita mientras tus ingresos y fondos de los últimos 12 meses sean menores a 200 000 USD.&lt;/li&gt;\n&lt;li&gt;En Unity Hub, ve a &lt;strong&gt;Installs → Install Editor&lt;/strong&gt; y elige una versión de &lt;strong&gt;Unity 6&lt;/strong&gt; (recomendada la marcada como LTS).&lt;/li&gt;\n&lt;li&gt;Espera a que termine la instalación. Para esta guía no necesitas módulos adicionales.&lt;/li&gt;\n&lt;/ol&gt;\n&lt;hr /&gt;\n&lt;h2&gt;Paso 1: crear el proyecto&lt;/h2&gt;\n&lt;ol&gt;\n&lt;li&gt;En Unity Hub, pulsa &lt;strong&gt;Projects → New project&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;Elige la plantilla &lt;strong&gt;Universal 3D&lt;/strong&gt; (usa el pipeline gráfico URP, el más recomendable para empezar).&lt;/li&gt;\n&lt;li&gt;Ponle un nombre, por ejemplo &lt;code&gt;MiPrimerJuego&lt;/code&gt;, y elige dónde guardarlo.&lt;/li&gt;\n&lt;li&gt;Pulsa &lt;strong&gt;Create project&lt;/strong&gt; y espera. La primera vez puede tardar unos minutos.&lt;/li&gt;\n&lt;/ol&gt;\n&lt;p&gt;✅ &lt;strong&gt;Comprobación:&lt;/strong&gt; se abre el editor con una escena llamada &lt;code&gt;SampleScene&lt;/code&gt;.&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h2&gt;Paso 2: conocer el editor&lt;/h2&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Panel&lt;/th&gt;\n&lt;th&gt;Para qué sirve&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Hierarchy&lt;/strong&gt; (izquierda)&lt;/td&gt;\n&lt;td&gt;Lista de todos los objetos de la escena&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Scene&lt;/strong&gt; (centro)&lt;/td&gt;\n&lt;td&gt;Vista donde colocas y mueves los objetos&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Game&lt;/strong&gt; (pestaña junto a Scene)&lt;/td&gt;\n&lt;td&gt;Lo que verá el jugador a través de la cámara&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Inspector&lt;/strong&gt; (derecha)&lt;/td&gt;\n&lt;td&gt;Propiedades y componentes del objeto seleccionado&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Project&lt;/strong&gt; (abajo)&lt;/td&gt;\n&lt;td&gt;Los archivos del proyecto (scripts, materiales, etc.)&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Console&lt;/strong&gt; (abajo)&lt;/td&gt;\n&lt;td&gt;Mensajes y errores&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;p&gt;&lt;strong&gt;Controles útiles en la vista Scene&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Clic derecho mantenido + mover el ratón:&lt;/strong&gt; girar la vista (con &lt;strong&gt;W A S D&lt;/strong&gt; para moverte).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Rueda del ratón:&lt;/strong&gt; acercar o alejar.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Clic en un objeto y tecla F:&lt;/strong&gt; centrar la vista en él.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Herramientas de transformación&lt;/strong&gt; (barra superior): mover (&lt;strong&gt;W&lt;/strong&gt;), rotar (&lt;strong&gt;E&lt;/strong&gt;), escalar (&lt;strong&gt;R&lt;/strong&gt;).&lt;/li&gt;\n&lt;/ul&gt;\n&lt;blockquote&gt;\n  &lt;p&gt;En el editor, W, E y R seleccionan herramientas solo cuando no estás manteniendo el clic derecho.&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;hr /&gt;\n&lt;h2&gt;Paso 3: construir el escenario&lt;/h2&gt;\n&lt;h3&gt;3.1 El suelo&lt;/h3&gt;\n&lt;ol&gt;\n&lt;li&gt;En &lt;strong&gt;Hierarchy&lt;/strong&gt;, clic derecho → &lt;strong&gt;3D Object → Plane&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;Renómbralo a &lt;code&gt;Suelo&lt;/code&gt; (selecciónalo y pulsa &lt;strong&gt;F2&lt;/strong&gt;).&lt;/li&gt;\n&lt;li&gt;En el &lt;strong&gt;Inspector&lt;/strong&gt;, en &lt;strong&gt;Transform&lt;/strong&gt;, pon:&lt;ul&gt;\n&lt;li&gt;Position: &lt;code&gt;0, 0, 0&lt;/code&gt;&lt;/li&gt;\n&lt;li&gt;Scale: &lt;code&gt;3, 1, 3&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;\n&lt;/ol&gt;\n&lt;blockquote&gt;\n  &lt;p&gt;Un &lt;em&gt;Plane&lt;/em&gt; mide 10 × 10 unidades por defecto, así que con escala 3 tendrás un suelo de 30 × 30.&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;h3&gt;3.2 Dar color al suelo&lt;/h3&gt;\n&lt;ol&gt;\n&lt;li&gt;En el panel &lt;strong&gt;Project&lt;/strong&gt;, clic derecho sobre la carpeta &lt;strong&gt;Assets → Create → Material&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;Llámalo &lt;code&gt;MatSuelo&lt;/code&gt;.&lt;/li&gt;\n&lt;li&gt;Selecciónalo y, en el Inspector, haz clic en el selector de color de &lt;strong&gt;Base Map&lt;/strong&gt; y elige un verde o gris.&lt;/li&gt;\n&lt;li&gt;Arrastra el material desde el panel Project hasta el objeto &lt;code&gt;Suelo&lt;/code&gt;.&lt;/li&gt;\n&lt;/ol&gt;\n&lt;h3&gt;3.3 Una plataforma y un muro&lt;/h3&gt;\n&lt;p&gt;Crea dos &lt;strong&gt;Cubes&lt;/strong&gt; (clic derecho en Hierarchy → &lt;strong&gt;3D Object → Cube&lt;/strong&gt;) y configúralos así:&lt;/p&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Nombre&lt;/th&gt;\n&lt;th&gt;Position&lt;/th&gt;\n&lt;th&gt;Scale&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;code&gt;Plataforma&lt;/code&gt;&lt;/td&gt;\n&lt;td&gt;&lt;code&gt;-5, 0.5, 4&lt;/code&gt;&lt;/td&gt;\n&lt;td&gt;&lt;code&gt;4, 1, 4&lt;/code&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;code&gt;Muro&lt;/code&gt;&lt;/td&gt;\n&lt;td&gt;&lt;code&gt;0, 1.5, 10&lt;/code&gt;&lt;/td&gt;\n&lt;td&gt;&lt;code&gt;10, 3, 1&lt;/code&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;blockquote&gt;\n  &lt;p&gt;Un cubo mide 1 unidad de alto. Para que apoye exactamente sobre el suelo, su posición en Y debe ser la mitad de su altura.&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;p&gt;Crea otro material, por ejemplo &lt;code&gt;MatObjetos&lt;/code&gt;, con un color distinto, y arrástralo a la plataforma y al muro.&lt;/p&gt;\n&lt;p&gt;✅ &lt;strong&gt;Comprobación:&lt;/strong&gt; en la vista Scene ves un suelo grande, una plataforma baja y un muro al fondo.&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h2&gt;Paso 4: crear el personaje&lt;/h2&gt;\n&lt;ol&gt;\n&lt;li&gt;Clic derecho en Hierarchy → &lt;strong&gt;3D Object → Capsule&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;Renómbralo a &lt;code&gt;Jugador&lt;/code&gt;.&lt;/li&gt;\n&lt;li&gt;En el Inspector, en &lt;strong&gt;Transform&lt;/strong&gt;, pon Position: &lt;code&gt;0, 1, 0&lt;/code&gt;.&lt;/li&gt;\n&lt;/ol&gt;\n&lt;blockquote&gt;\n  &lt;p&gt;Una cápsula mide 2 unidades de alto, por eso su centro va en Y = 1 para apoyar en el suelo.&lt;/p&gt;\n  &lt;ol start=\&quot;4\&quot;&gt;\n  &lt;li&gt;Pulsa &lt;strong&gt;Add Component&lt;/strong&gt;, busca &lt;strong&gt;Rigidbody&lt;/strong&gt; y añádelo. Este componente le da física (gravedad y colisiones).&lt;/li&gt;\n  &lt;li&gt;En el componente Rigidbody, despliega &lt;strong&gt;Constraints&lt;/strong&gt; y marca &lt;strong&gt;Freeze Rotation&lt;/strong&gt; en X, Y y Z. Así el personaje no se cae de lado.&lt;/li&gt;\n  &lt;li&gt;Crea un material &lt;code&gt;MatJugador&lt;/code&gt; con un color que destaque (por ejemplo, naranja o azul) y arrástralo al jugador.&lt;/li&gt;\n  &lt;/ol&gt;\n&lt;/blockquote&gt;\n&lt;p&gt;✅ &lt;strong&gt;Comprobación:&lt;/strong&gt; pulsa &lt;strong&gt;Play&lt;/strong&gt; (▶). La cápsula debería quedarse apoyada sobre el suelo. Vuelve a pulsar Play para detener.&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h2&gt;Paso 5: programar el movimiento&lt;/h2&gt;\n&lt;h3&gt;5.1 Crear el script&lt;/h3&gt;\n&lt;ol&gt;\n&lt;li&gt;En el panel &lt;strong&gt;Project&lt;/strong&gt;, clic derecho en &lt;strong&gt;Assets → Create → Scripting → MonoBehaviour Script&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;Llámalo exactamente &lt;code&gt;PlayerMovement&lt;/code&gt; (el nombre del archivo debe coincidir con el de la clase).&lt;/li&gt;\n&lt;li&gt;Haz doble clic para abrirlo en tu editor de código.&lt;/li&gt;\n&lt;/ol&gt;\n&lt;h3&gt;5.2 Escribir el código&lt;/h3&gt;\n&lt;p&gt;Borra el contenido y pega esto:&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;csharp language-csharp\&quot;&gt;using UnityEngine;\nusing UnityEngine.InputSystem;\n\npublic class PlayerMovement : MonoBehaviour\n{\n    [Header(\&quot;Movimiento\&quot;)]\n    public float speed = 5f;       // velocidad al caminar\n    public float jumpForce = 6f;   // fuerza del salto\n\n    private Rigidbody rb;\n    private bool grounded;\n\n    void Awake()\n    {\n        rb = GetComponent&amp;lt;Rigidbody&amp;gt;();\n    }\n\n    void Update()\n    {\n        var kb = Keyboard.current;\n        if (kb == null) return;\n\n        // Salto: solo si está tocando el suelo\n        if (kb.spaceKey.wasPressedThisFrame &amp;amp;&amp;amp; grounded)\n        {\n            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);\n        }\n    }\n\n    void FixedUpdate()\n    {\n        var kb = Keyboard.current;\n        if (kb == null) return;\n\n        // Leer las teclas W A S D\n        float x = (kb.dKey.isPressed ? 1f : 0f) - (kb.aKey.isPressed ? 1f : 0f);\n        float z = (kb.wKey.isPressed ? 1f : 0f) - (kb.sKey.isPressed ? 1f : 0f);\n\n        // Mover en horizontal y respetar la velocidad vertical (gravedad y salto)\n        Vector3 move = new Vector3(x, 0f, z).normalized * speed;\n        rb.linearVelocity = new Vector3(move.x, rb.linearVelocity.y, move.z);\n    }\n\n    void OnCollisionStay(Collision collision) { grounded = true; }\n    void OnCollisionExit(Collision collision) { grounded = false; }\n}\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;Guarda el archivo (&lt;strong&gt;Ctrl + S&lt;/strong&gt;) y vuelve a Unity.&lt;/p&gt;\n&lt;blockquote&gt;\n  &lt;p&gt;&lt;strong&gt;Si usas Unity 2022 LTS o anterior:&lt;/strong&gt; cambia &lt;code&gt;rb.linearVelocity&lt;/code&gt; por &lt;code&gt;rb.velocity&lt;/code&gt;.&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;h3&gt;5.3 Asignar el script al personaje&lt;/h3&gt;\n&lt;p&gt;Arrastra el script &lt;code&gt;PlayerMovement&lt;/code&gt; desde el panel Project hasta el objeto &lt;code&gt;Jugador&lt;/code&gt; en la Hierarchy. También puedes seleccionar el jugador y usar &lt;strong&gt;Add Component → PlayerMovement&lt;/strong&gt;.&lt;/p&gt;\n&lt;p&gt;✅ &lt;strong&gt;Comprobación:&lt;/strong&gt; al seleccionar &lt;code&gt;Jugador&lt;/code&gt;, en el Inspector aparece el componente &lt;strong&gt;Player Movement&lt;/strong&gt; con los valores &lt;code&gt;Speed&lt;/code&gt; y &lt;code&gt;Jump Force&lt;/code&gt;.&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h2&gt;Paso 6: configurar la cámara&lt;/h2&gt;\n&lt;p&gt;La forma más sencilla de que la cámara siga al personaje es hacerla &lt;strong&gt;hija&lt;/strong&gt; del jugador.&lt;/p&gt;\n&lt;ol&gt;\n&lt;li&gt;En Hierarchy, arrastra &lt;strong&gt;Main Camera&lt;/strong&gt; y suéltala encima de &lt;code&gt;Jugador&lt;/code&gt;. Quedará anidada debajo.&lt;/li&gt;\n&lt;li&gt;Selecciona &lt;strong&gt;Main Camera&lt;/strong&gt; y, en Transform, pon:&lt;ul&gt;\n&lt;li&gt;Position: &lt;code&gt;0, 5, -8&lt;/code&gt;&lt;/li&gt;\n&lt;li&gt;Rotation: &lt;code&gt;30, 0, 0&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;\n&lt;/ol&gt;\n&lt;blockquote&gt;\n  &lt;p&gt;Como el Rigidbody tiene la rotación congelada, la cámara no girará con el personaje y se mantendrá siempre detrás y arriba de él.&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;hr /&gt;\n&lt;h2&gt;Paso 7: probar y guardar&lt;/h2&gt;\n&lt;ol&gt;\n&lt;li&gt;Pulsa &lt;strong&gt;Play&lt;/strong&gt; (▶).&lt;/li&gt;\n&lt;li&gt;Haz clic dentro de la ventana &lt;strong&gt;Game&lt;/strong&gt; para que reciba el teclado.&lt;/li&gt;\n&lt;li&gt;Muévete con &lt;strong&gt;W A S D&lt;/strong&gt; y salta con &lt;strong&gt;Espacio&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;Intenta subirte a la plataforma.&lt;/li&gt;\n&lt;li&gt;Pulsa &lt;strong&gt;Play&lt;/strong&gt; de nuevo para detener.&lt;/li&gt;\n&lt;li&gt;Guarda la escena con &lt;strong&gt;Ctrl + S&lt;/strong&gt; (o &lt;strong&gt;File → Save&lt;/strong&gt;).&lt;/li&gt;\n&lt;/ol&gt;\n&lt;p&gt;🎉 &lt;strong&gt;¡Listo!&lt;/strong&gt; Ya tienes tu primera escena jugable con personaje y escenario.&lt;/p&gt;\n&lt;blockquote&gt;\n  &lt;p&gt;&lt;strong&gt;Importante:&lt;/strong&gt; los cambios que hagas &lt;strong&gt;mientras el juego está en Play&lt;/strong&gt; se pierden al detenerlo. Detén siempre el juego antes de editar.&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;hr /&gt;\n&lt;h2&gt;Solución de problemas&lt;/h2&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Problema&lt;/th&gt;\n&lt;th&gt;Posible causa y solución&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;El personaje se hunde o cae al vacío&lt;/td&gt;\n&lt;td&gt;Revisa que &lt;code&gt;Suelo&lt;/code&gt; tenga su collider (viene por defecto) y que el jugador esté en Y = 1&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;El personaje no se mueve&lt;/td&gt;\n&lt;td&gt;Comprueba que el script esté asignado al &lt;code&gt;Jugador&lt;/code&gt; y haz clic dentro de la ventana Game antes de pulsar teclas&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;Error: &lt;em&gt;The class name doesn't match the file name&lt;/em&gt;&lt;/td&gt;\n&lt;td&gt;El script debe llamarse exactamente &lt;code&gt;PlayerMovement&lt;/code&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;Error de entrada (&lt;em&gt;InvalidOperationException&lt;/em&gt; sobre el Input)&lt;/td&gt;\n&lt;td&gt;Ve a &lt;strong&gt;Edit → Project Settings → Player → Other Settings → Configuration&lt;/strong&gt; y en &lt;strong&gt;Active Input Handling&lt;/strong&gt; elige &lt;strong&gt;Input System Package (New)&lt;/strong&gt; o &lt;strong&gt;Both&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;El personaje se cae de lado&lt;/td&gt;\n&lt;td&gt;Marca &lt;strong&gt;Freeze Rotation&lt;/strong&gt; en X, Y y Z del Rigidbody&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;No puede saltar&lt;/td&gt;\n&lt;td&gt;El salto solo funciona si está tocando algo; comprueba que haya colisión con el suelo&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;La cámara no sigue al jugador&lt;/td&gt;\n&lt;td&gt;Asegúrate de que &lt;strong&gt;Main Camera&lt;/strong&gt; esté anidada debajo de &lt;code&gt;Jugador&lt;/code&gt; en la Hierarchy&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;Los materiales se ven rosados&lt;/td&gt;\n&lt;td&gt;El material no es compatible con el pipeline; crea el material desde Assets y usa el shader &lt;strong&gt;Universal Render Pipeline/Lit&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;hr /&gt;\n&lt;h2&gt;Siguientes pasos&lt;/h2&gt;\n&lt;p&gt;Una vez tengas esto funcionando, prueba añadir, de uno en uno:&lt;/p&gt;\n&lt;ol&gt;\n&lt;li&gt;&lt;strong&gt;Monedas&lt;/strong&gt; que desaparezcan al tocarlas (usa un &lt;em&gt;Collider&lt;/em&gt; con &lt;strong&gt;Is Trigger&lt;/strong&gt; y un script con &lt;code&gt;OnTriggerEnter&lt;/code&gt;).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Un contador de puntos&lt;/strong&gt; con un texto en pantalla (UI).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Sonidos&lt;/strong&gt;: un efecto al saltar y otro al recoger monedas.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Un personaje con modelo y animaciones&lt;/strong&gt; (importa un modelo desde Blender o desde recursos gratuitos).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Una cámara más avanzada&lt;/strong&gt; con el paquete &lt;strong&gt;Cinemachine&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Un objetivo y una pantalla de victoria&lt;/strong&gt;, para convertir la escena en un juego completo.&lt;/li&gt;\n&lt;/ol&gt;\n&lt;hr /&gt;\n&lt;h2&gt;Glosario&lt;/h2&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Término&lt;/th&gt;\n&lt;th&gt;Significado&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Escena (&lt;em&gt;Scene&lt;/em&gt;)&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Un nivel o pantalla del juego&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;GameObject&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Cualquier objeto dentro de una escena&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Componente&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Pieza que da una función a un objeto (física, luz, script…)&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Transform&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Posición, rotación y escala de un objeto&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Rigidbody&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Componente que le da física a un objeto&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Collider&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Forma invisible que detecta colisiones&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Material&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Define el color y aspecto de la superficie de un objeto&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Script&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Archivo de código que da comportamiento a un objeto&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Prefab&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Objeto guardado como plantilla para reutilizar&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Hierarchy / Inspector / Project&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Paneles principales del editor de Unity&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Pipeline gráfico (URP)&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Sistema que decide cómo se dibujan los gráficos&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;&lt;strong&gt;Blockout&lt;/strong&gt;&lt;/td&gt;\n&lt;td&gt;Versión inicial de un nivel con formas simples, sin arte&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template">
+    <div class="markdownTextIdeviceContent">
+            <div class="exe-markdown-activity">
+                <div class="markdown-body"><h1>Introducción al desarrollo de videojuegos</h1>
+<h3>Con guía práctica: tu primera escena en Unity (personaje + escenario)</h3>
+<blockquote>
+  <p><strong>Tiempo estimado de la guía práctica:</strong> 30 a 45 minutos.</p>
+</blockquote>
+<hr />
+<h2>Índice</h2>
+<p><strong>Parte 1: Introducción</strong></p>
+<ol>
+<li><a href="#1-qué-es-desarrollar-un-videojuego">¿Qué es desarrollar un videojuego?</a></li>
+<li><a href="#2-elementos-básicos-de-un-videojuego">Elementos básicos de un videojuego</a></li>
+<li><a href="#3-fases-del-desarrollo">Fases del desarrollo</a></li>
+<li><a href="#4-roles-en-un-equipo">Roles en un equipo</a></li>
+<li><a href="#5-herramientas-esenciales">Herramientas esenciales</a></li>
+<li><a href="#6-cómo-elegir-tu-primer-proyecto">Cómo elegir tu primer proyecto</a></li>
+<li><a href="#7-ruta-de-aprendizaje-sugerida">Ruta de aprendizaje sugerida</a></li>
+</ol>
+<p><strong>Parte 2: Guía práctica en Unity</strong></p>
+<ol start="8">
+<li><a href="#8-qué-vas-a-construir">Qué vas a construir</a></li>
+<li><a href="#paso-0-instalar-unity">Paso 0: instalar Unity</a></li>
+<li><a href="#paso-1-crear-el-proyecto">Paso 1: crear el proyecto</a></li>
+<li><a href="#paso-2-conocer-el-editor">Paso 2: conocer el editor</a></li>
+<li><a href="#paso-3-construir-el-escenario">Paso 3: construir el escenario</a></li>
+<li><a href="#paso-4-crear-el-personaje">Paso 4: crear el personaje</a></li>
+<li><a href="#paso-5-programar-el-movimiento">Paso 5: programar el movimiento</a></li>
+<li><a href="#paso-6-configurar-la-cámara">Paso 6: configurar la cámara</a></li>
+<li><a href="#paso-7-probar-y-guardar">Paso 7: probar y guardar</a></li>
+<li><a href="#solución-de-problemas">Solución de problemas</a></li>
+<li><a href="#siguientes-pasos">Siguientes pasos</a></li>
+<li><a href="#glosario">Glosario</a></li>
+</ol>
+<hr />
+<h1>PARTE 1: INTRODUCCIÓN</h1>
+<h2>1. ¿Qué es desarrollar un videojuego?</h2>
+<p>Desarrollar un videojuego es combinar <strong>diseño, arte, sonido y programación</strong> para crear una experiencia con la que el jugador puede interactuar. No hace falta dominar todo a la vez: los juegos independientes muchas veces los hace una sola persona aprendiendo una pieza tras otra.</p>
+<p>La idea clave: <strong>un videojuego es un conjunto de piezas pequeñas que trabajan juntas</strong>. Si aprendes cada pieza por separado, el conjunto deja de intimidar.</p>
+<hr />
+<h2>2. Elementos básicos de un videojuego</h2>
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Qué es</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mecánicas</strong></td>
+<td>Las acciones que puede hacer el jugador</td>
+<td>Saltar, disparar, construir, conducir</td>
+</tr>
+<tr>
+<td><strong>Reglas</strong></td>
+<td>Los límites del juego</td>
+<td>No puedes atravesar paredes; tienes tres vidas</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Lo que el jugador intenta lograr</td>
+<td>Llegar a la meta, sobrevivir, resolver un enigma</td>
+</tr>
+<tr>
+<td><strong>Desafío y recompensa</strong></td>
+<td>Dificultad creciente y premios por superarla</td>
+<td>Un jefe difícil que da un objeto nuevo</td>
+</tr>
+<tr>
+<td><strong>Retroalimentación (<em>feedback</em>)</strong></td>
+<td>La respuesta del juego a lo que haces</td>
+<td>Sonido y animación al recoger una moneda</td>
+</tr>
+<tr>
+<td><strong>Arte</strong></td>
+<td>Personajes, escenarios, objetos y efectos</td>
+<td>Sprites 2D o modelos 3D</td>
+</tr>
+<tr>
+<td><strong>Audio</strong></td>
+<td>Música y efectos de sonido</td>
+<td>Música de tensión en una pelea</td>
+</tr>
+<tr>
+<td><strong>Interfaz (UI)</strong></td>
+<td>Lo que muestra información al jugador</td>
+<td>Barra de vida, menú, inventario</td>
+</tr>
+<tr>
+<td><strong>Niveles o escenas</strong></td>
+<td>Los espacios donde ocurre el juego</td>
+<td>Un bosque, una mazmorra, una ciudad</td>
+</tr>
+<tr>
+<td><strong>Narrativa</strong></td>
+<td>La historia y su contexto (opcional, pero común)</td>
+<td>Un héroe que busca a su familia</td>
+</tr>
+</tbody>
+</table>
+<h3>Componentes técnicos (lo que no se ve)</h3>
+<ul>
+<li><strong>Bucle del juego (<em>game loop</em>):</strong> ciclo que se repite muchas veces por segundo: lee las entradas, actualiza el mundo y dibuja la pantalla.</li>
+<li><strong>Entradas:</strong> teclado, mando, pantalla táctil.</li>
+<li><strong>Física y colisiones:</strong> deciden si algo cae, rebota o choca.</li>
+<li><strong>Inteligencia artificial:</strong> controla enemigos y aliados.</li>
+<li><strong>Escenas y objetos:</strong> el motor organiza el juego en escenas que contienen objetos, y cada objeto tiene componentes y scripts.</li>
+<li><strong>Datos y guardado:</strong> puntuación, progreso, configuración.</li>
+</ul>
+<hr />
+<h2>3. Fases del desarrollo</h2>
+<ol>
+<li><strong>Idea y concepto.</strong> Resume el juego en una frase.</li>
+<li><strong>Preproducción.</strong> Diseña las mecánicas, haz un prototipo básico y decide el estilo visual.</li>
+<li><strong>Producción.</strong> Construye el juego: niveles, personajes, sonido, interfaz.</li>
+<li><strong>Pruebas.</strong> Juega, busca errores y pide a otras personas que lo prueben.</li>
+<li><strong>Lanzamiento.</strong> Publica en una plataforma (por ejemplo, itch.io, Steam o tiendas móviles).</li>
+<li><strong>Postlanzamiento.</strong> Corrige errores, escucha comentarios y mejora.</li>
+</ol>
+<hr />
+<h2>4. Roles en un equipo</h2>
+<table>
+<thead>
+<tr>
+<th>Rol</th>
+<th>Qué hace</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Diseñador de juego</strong></td>
+<td>Define mecánicas, reglas, niveles y la experiencia general</td>
+</tr>
+<tr>
+<td><strong>Programador</strong></td>
+<td>Hace que todo funcione mediante código</td>
+</tr>
+<tr>
+<td><strong>Artista</strong></td>
+<td>Crea personajes, escenarios, animaciones e interfaz</td>
+</tr>
+<tr>
+<td><strong>Diseñador de sonido y música</strong></td>
+<td>Crea la identidad sonora</td>
+</tr>
+<tr>
+<td><strong>QA (control de calidad)</strong></td>
+<td>Busca errores y problemas de jugabilidad</td>
+</tr>
+<tr>
+<td><strong>Productor</strong></td>
+<td>Organiza tiempos, tareas y comunicación</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+  <p>En proyectos independientes, una sola persona suele cumplir varios roles a la vez.</p>
+</blockquote>
+<hr />
+<h2>5. Herramientas esenciales</h2>
+<table>
+<thead>
+<tr>
+<th>Necesidad</th>
+<th>Opciones habituales</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Motor de juego</strong></td>
+<td>Godot, Unity, Unreal Engine</td>
+</tr>
+<tr>
+<td><strong>Editor de código</strong></td>
+<td>Visual Studio Code, Visual Studio, JetBrains Rider</td>
+</tr>
+<tr>
+<td><strong>Arte 2D</strong></td>
+<td>Krita, Aseprite (pixel art), GIMP</td>
+</tr>
+<tr>
+<td><strong>Modelado 3D</strong></td>
+<td>Blender</td>
+</tr>
+<tr>
+<td><strong>Audio</strong></td>
+<td>Audacity, LMMS</td>
+</tr>
+<tr>
+<td><strong>Control de versiones</strong></td>
+<td>Git (con GitHub o GitLab) para guardar el historial del proyecto</td>
+</tr>
+<tr>
+<td><strong>Organización</strong></td>
+<td>Trello, Notion u hojas de cálculo</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>6. Cómo elegir tu primer proyecto</h2>
+<p><strong>La regla más importante: empieza pequeño.</strong></p>
+<ul>
+<li>Debe poder explicarse <strong>en una frase</strong>.</li>
+<li>Debe tener <strong>una sola mecánica principal</strong>.</li>
+<li>Debe poder terminarse en <strong>semanas, no en años</strong>.</li>
+</ul>
+<p><strong>Buenos primeros proyectos:</strong> un juego de esquivar obstáculos, un plataformas de un solo nivel, un juego de recolectar monedas, una versión simple de Pong o Snake.</p>
+<p><strong>Malos primeros proyectos:</strong> un mundo abierto, un juego multijugador online, un RPG largo con historia.</p>
+<hr />
+<h2>7. Ruta de aprendizaje sugerida</h2>
+<table>
+<thead>
+<tr>
+<th>Etapa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semana 1</strong></td>
+<td>Instalar el motor y completar la guía práctica de este documento</td>
+</tr>
+<tr>
+<td><strong>Semanas 2 y 3</strong></td>
+<td>Aprender lo básico de programación: variables, condiciones, bucles y funciones</td>
+</tr>
+<tr>
+<td><strong>Semanas 4 a 6</strong></td>
+<td>Seguir un tutorial oficial hasta terminar un juego completo y pequeño</td>
+</tr>
+<tr>
+<td><strong>Mes 2</strong></td>
+<td>Hacer tu propio mini-juego con una idea original</td>
+</tr>
+<tr>
+<td><strong>Mes 3 en adelante</strong></td>
+<td>Publicar en itch.io, recibir comentarios y empezar un segundo proyecto</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1>PARTE 2: GUÍA PRÁCTICA EN UNITY</h1>
+<h2>8. Qué vas a construir</h2>
+<p>Al terminar tendrás una escena en 3D con:</p>
+<ul>
+<li>un <strong>escenario</strong>: suelo, una plataforma y un muro,</li>
+<li>un <strong>personaje</strong> (una cápsula) que se mueve con <strong>W A S D</strong> y salta con la <strong>barra espaciadora</strong>,</li>
+<li>una <strong>cámara</strong> que lo sigue.</li>
+</ul>
+<blockquote>
+  <p>Esta guía está pensada para <strong>Unity 6</strong>. Los menús pueden variar ligeramente en otras versiones.</p>
+</blockquote>
+<hr />
+<h2>Paso 0: instalar Unity</h2>
+<ol>
+<li>Entra en la página oficial de Unity y descarga <strong>Unity Hub</strong>.</li>
+<li>Instálalo e inicia sesión (o crea una cuenta gratuita).</li>
+<li>Activa la licencia <strong>Unity Personal</strong>, que es gratuita mientras tus ingresos y fondos de los últimos 12 meses sean menores a 200 000 USD.</li>
+<li>En Unity Hub, ve a <strong>Installs → Install Editor</strong> y elige una versión de <strong>Unity 6</strong> (recomendada la marcada como LTS).</li>
+<li>Espera a que termine la instalación. Para esta guía no necesitas módulos adicionales.</li>
+</ol>
+<hr />
+<h2>Paso 1: crear el proyecto</h2>
+<ol>
+<li>En Unity Hub, pulsa <strong>Projects → New project</strong>.</li>
+<li>Elige la plantilla <strong>Universal 3D</strong> (usa el pipeline gráfico URP, el más recomendable para empezar).</li>
+<li>Ponle un nombre, por ejemplo <code>MiPrimerJuego</code>, y elige dónde guardarlo.</li>
+<li>Pulsa <strong>Create project</strong> y espera. La primera vez puede tardar unos minutos.</li>
+</ol>
+<p>✅ <strong>Comprobación:</strong> se abre el editor con una escena llamada <code>SampleScene</code>.</p>
+<hr />
+<h2>Paso 2: conocer el editor</h2>
+<table>
+<thead>
+<tr>
+<th>Panel</th>
+<th>Para qué sirve</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Hierarchy</strong> (izquierda)</td>
+<td>Lista de todos los objetos de la escena</td>
+</tr>
+<tr>
+<td><strong>Scene</strong> (centro)</td>
+<td>Vista donde colocas y mueves los objetos</td>
+</tr>
+<tr>
+<td><strong>Game</strong> (pestaña junto a Scene)</td>
+<td>Lo que verá el jugador a través de la cámara</td>
+</tr>
+<tr>
+<td><strong>Inspector</strong> (derecha)</td>
+<td>Propiedades y componentes del objeto seleccionado</td>
+</tr>
+<tr>
+<td><strong>Project</strong> (abajo)</td>
+<td>Los archivos del proyecto (scripts, materiales, etc.)</td>
+</tr>
+<tr>
+<td><strong>Console</strong> (abajo)</td>
+<td>Mensajes y errores</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Controles útiles en la vista Scene</strong></p>
+<ul>
+<li><strong>Clic derecho mantenido + mover el ratón:</strong> girar la vista (con <strong>W A S D</strong> para moverte).</li>
+<li><strong>Rueda del ratón:</strong> acercar o alejar.</li>
+<li><strong>Clic en un objeto y tecla F:</strong> centrar la vista en él.</li>
+<li><strong>Herramientas de transformación</strong> (barra superior): mover (<strong>W</strong>), rotar (<strong>E</strong>), escalar (<strong>R</strong>).</li>
+</ul>
+<blockquote>
+  <p>En el editor, W, E y R seleccionan herramientas solo cuando no estás manteniendo el clic derecho.</p>
+</blockquote>
+<hr />
+<h2>Paso 3: construir el escenario</h2>
+<h3>3.1 El suelo</h3>
+<ol>
+<li>En <strong>Hierarchy</strong>, clic derecho → <strong>3D Object → Plane</strong>.</li>
+<li>Renómbralo a <code>Suelo</code> (selecciónalo y pulsa <strong>F2</strong>).</li>
+<li>En el <strong>Inspector</strong>, en <strong>Transform</strong>, pon:<ul>
+<li>Position: <code>0, 0, 0</code></li>
+<li>Scale: <code>3, 1, 3</code></li></ul></li>
+</ol>
+<blockquote>
+  <p>Un <em>Plane</em> mide 10 × 10 unidades por defecto, así que con escala 3 tendrás un suelo de 30 × 30.</p>
+</blockquote>
+<h3>3.2 Dar color al suelo</h3>
+<ol>
+<li>En el panel <strong>Project</strong>, clic derecho sobre la carpeta <strong>Assets → Create → Material</strong>.</li>
+<li>Llámalo <code>MatSuelo</code>.</li>
+<li>Selecciónalo y, en el Inspector, haz clic en el selector de color de <strong>Base Map</strong> y elige un verde o gris.</li>
+<li>Arrastra el material desde el panel Project hasta el objeto <code>Suelo</code>.</li>
+</ol>
+<h3>3.3 Una plataforma y un muro</h3>
+<p>Crea dos <strong>Cubes</strong> (clic derecho en Hierarchy → <strong>3D Object → Cube</strong>) y configúralos así:</p>
+<table>
+<thead>
+<tr>
+<th>Nombre</th>
+<th>Position</th>
+<th>Scale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Plataforma</code></td>
+<td><code>-5, 0.5, 4</code></td>
+<td><code>4, 1, 4</code></td>
+</tr>
+<tr>
+<td><code>Muro</code></td>
+<td><code>0, 1.5, 10</code></td>
+<td><code>10, 3, 1</code></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+  <p>Un cubo mide 1 unidad de alto. Para que apoye exactamente sobre el suelo, su posición en Y debe ser la mitad de su altura.</p>
+</blockquote>
+<p>Crea otro material, por ejemplo <code>MatObjetos</code>, con un color distinto, y arrástralo a la plataforma y al muro.</p>
+<p>✅ <strong>Comprobación:</strong> en la vista Scene ves un suelo grande, una plataforma baja y un muro al fondo.</p>
+<hr />
+<h2>Paso 4: crear el personaje</h2>
+<ol>
+<li>Clic derecho en Hierarchy → <strong>3D Object → Capsule</strong>.</li>
+<li>Renómbralo a <code>Jugador</code>.</li>
+<li>En el Inspector, en <strong>Transform</strong>, pon Position: <code>0, 1, 0</code>.</li>
+</ol>
+<blockquote>
+  <p>Una cápsula mide 2 unidades de alto, por eso su centro va en Y = 1 para apoyar en el suelo.</p>
+  <ol start="4">
+  <li>Pulsa <strong>Add Component</strong>, busca <strong>Rigidbody</strong> y añádelo. Este componente le da física (gravedad y colisiones).</li>
+  <li>En el componente Rigidbody, despliega <strong>Constraints</strong> y marca <strong>Freeze Rotation</strong> en X, Y y Z. Así el personaje no se cae de lado.</li>
+  <li>Crea un material <code>MatJugador</code> con un color que destaque (por ejemplo, naranja o azul) y arrástralo al jugador.</li>
+  </ol>
+</blockquote>
+<p>✅ <strong>Comprobación:</strong> pulsa <strong>Play</strong> (▶). La cápsula debería quedarse apoyada sobre el suelo. Vuelve a pulsar Play para detener.</p>
+<hr />
+<h2>Paso 5: programar el movimiento</h2>
+<h3>5.1 Crear el script</h3>
+<ol>
+<li>En el panel <strong>Project</strong>, clic derecho en <strong>Assets → Create → Scripting → MonoBehaviour Script</strong>.</li>
+<li>Llámalo exactamente <code>PlayerMovement</code> (el nombre del archivo debe coincidir con el de la clase).</li>
+<li>Haz doble clic para abrirlo en tu editor de código.</li>
+</ol>
+<h3>5.2 Escribir el código</h3>
+<p>Borra el contenido y pega esto:</p>
+<pre><code class="csharp language-csharp">using UnityEngine;
+using UnityEngine.InputSystem;
+
+public class PlayerMovement : MonoBehaviour
+{
+    [Header(&quot;Movimiento&quot;)]
+    public float speed = 5f;       // velocidad al caminar
+    public float jumpForce = 6f;   // fuerza del salto
+
+    private Rigidbody rb;
+    private bool grounded;
+
+    void Awake()
+    {
+        rb = GetComponent&lt;Rigidbody&gt;();
+    }
+
+    void Update()
+    {
+        var kb = Keyboard.current;
+        if (kb == null) return;
+
+        // Salto: solo si está tocando el suelo
+        if (kb.spaceKey.wasPressedThisFrame &amp;&amp; grounded)
+        {
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        }
+    }
+
+    void FixedUpdate()
+    {
+        var kb = Keyboard.current;
+        if (kb == null) return;
+
+        // Leer las teclas W A S D
+        float x = (kb.dKey.isPressed ? 1f : 0f) - (kb.aKey.isPressed ? 1f : 0f);
+        float z = (kb.wKey.isPressed ? 1f : 0f) - (kb.sKey.isPressed ? 1f : 0f);
+
+        // Mover en horizontal y respetar la velocidad vertical (gravedad y salto)
+        Vector3 move = new Vector3(x, 0f, z).normalized * speed;
+        rb.linearVelocity = new Vector3(move.x, rb.linearVelocity.y, move.z);
+    }
+
+    void OnCollisionStay(Collision collision) { grounded = true; }
+    void OnCollisionExit(Collision collision) { grounded = false; }
+}
+</code></pre>
+<p>Guarda el archivo (<strong>Ctrl + S</strong>) y vuelve a Unity.</p>
+<blockquote>
+  <p><strong>Si usas Unity 2022 LTS o anterior:</strong> cambia <code>rb.linearVelocity</code> por <code>rb.velocity</code>.</p>
+</blockquote>
+<h3>5.3 Asignar el script al personaje</h3>
+<p>Arrastra el script <code>PlayerMovement</code> desde el panel Project hasta el objeto <code>Jugador</code> en la Hierarchy. También puedes seleccionar el jugador y usar <strong>Add Component → PlayerMovement</strong>.</p>
+<p>✅ <strong>Comprobación:</strong> al seleccionar <code>Jugador</code>, en el Inspector aparece el componente <strong>Player Movement</strong> con los valores <code>Speed</code> y <code>Jump Force</code>.</p>
+<hr />
+<h2>Paso 6: configurar la cámara</h2>
+<p>La forma más sencilla de que la cámara siga al personaje es hacerla <strong>hija</strong> del jugador.</p>
+<ol>
+<li>En Hierarchy, arrastra <strong>Main Camera</strong> y suéltala encima de <code>Jugador</code>. Quedará anidada debajo.</li>
+<li>Selecciona <strong>Main Camera</strong> y, en Transform, pon:<ul>
+<li>Position: <code>0, 5, -8</code></li>
+<li>Rotation: <code>30, 0, 0</code></li></ul></li>
+</ol>
+<blockquote>
+  <p>Como el Rigidbody tiene la rotación congelada, la cámara no girará con el personaje y se mantendrá siempre detrás y arriba de él.</p>
+</blockquote>
+<hr />
+<h2>Paso 7: probar y guardar</h2>
+<ol>
+<li>Pulsa <strong>Play</strong> (▶).</li>
+<li>Haz clic dentro de la ventana <strong>Game</strong> para que reciba el teclado.</li>
+<li>Muévete con <strong>W A S D</strong> y salta con <strong>Espacio</strong>.</li>
+<li>Intenta subirte a la plataforma.</li>
+<li>Pulsa <strong>Play</strong> de nuevo para detener.</li>
+<li>Guarda la escena con <strong>Ctrl + S</strong> (o <strong>File → Save</strong>).</li>
+</ol>
+<p>🎉 <strong>¡Listo!</strong> Ya tienes tu primera escena jugable con personaje y escenario.</p>
+<blockquote>
+  <p><strong>Importante:</strong> los cambios que hagas <strong>mientras el juego está en Play</strong> se pierden al detenerlo. Detén siempre el juego antes de editar.</p>
+</blockquote>
+<hr />
+<h2>Solución de problemas</h2>
+<table>
+<thead>
+<tr>
+<th>Problema</th>
+<th>Posible causa y solución</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>El personaje se hunde o cae al vacío</td>
+<td>Revisa que <code>Suelo</code> tenga su collider (viene por defecto) y que el jugador esté en Y = 1</td>
+</tr>
+<tr>
+<td>El personaje no se mueve</td>
+<td>Comprueba que el script esté asignado al <code>Jugador</code> y haz clic dentro de la ventana Game antes de pulsar teclas</td>
+</tr>
+<tr>
+<td>Error: <em>The class name doesn't match the file name</em></td>
+<td>El script debe llamarse exactamente <code>PlayerMovement</code></td>
+</tr>
+<tr>
+<td>Error de entrada (<em>InvalidOperationException</em> sobre el Input)</td>
+<td>Ve a <strong>Edit → Project Settings → Player → Other Settings → Configuration</strong> y en <strong>Active Input Handling</strong> elige <strong>Input System Package (New)</strong> o <strong>Both</strong></td>
+</tr>
+<tr>
+<td>El personaje se cae de lado</td>
+<td>Marca <strong>Freeze Rotation</strong> en X, Y y Z del Rigidbody</td>
+</tr>
+<tr>
+<td>No puede saltar</td>
+<td>El salto solo funciona si está tocando algo; comprueba que haya colisión con el suelo</td>
+</tr>
+<tr>
+<td>La cámara no sigue al jugador</td>
+<td>Asegúrate de que <strong>Main Camera</strong> esté anidada debajo de <code>Jugador</code> en la Hierarchy</td>
+</tr>
+<tr>
+<td>Los materiales se ven rosados</td>
+<td>El material no es compatible con el pipeline; crea el material desde Assets y usa el shader <strong>Universal Render Pipeline/Lit</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Siguientes pasos</h2>
+<p>Una vez tengas esto funcionando, prueba añadir, de uno en uno:</p>
+<ol>
+<li><strong>Monedas</strong> que desaparezcan al tocarlas (usa un <em>Collider</em> con <strong>Is Trigger</strong> y un script con <code>OnTriggerEnter</code>).</li>
+<li><strong>Un contador de puntos</strong> con un texto en pantalla (UI).</li>
+<li><strong>Sonidos</strong>: un efecto al saltar y otro al recoger monedas.</li>
+<li><strong>Un personaje con modelo y animaciones</strong> (importa un modelo desde Blender o desde recursos gratuitos).</li>
+<li><strong>Una cámara más avanzada</strong> con el paquete <strong>Cinemachine</strong>.</li>
+<li><strong>Un objetivo y una pantalla de victoria</strong>, para convertir la escena en un juego completo.</li>
+</ol>
+<hr />
+<h2>Glosario</h2>
+<table>
+<thead>
+<tr>
+<th>Término</th>
+<th>Significado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Escena (<em>Scene</em>)</strong></td>
+<td>Un nivel o pantalla del juego</td>
+</tr>
+<tr>
+<td><strong>GameObject</strong></td>
+<td>Cualquier objeto dentro de una escena</td>
+</tr>
+<tr>
+<td><strong>Componente</strong></td>
+<td>Pieza que da una función a un objeto (física, luz, script…)</td>
+</tr>
+<tr>
+<td><strong>Transform</strong></td>
+<td>Posición, rotación y escala de un objeto</td>
+</tr>
+<tr>
+<td><strong>Rigidbody</strong></td>
+<td>Componente que le da física a un objeto</td>
+</tr>
+<tr>
+<td><strong>Collider</strong></td>
+<td>Forma invisible que detecta colisiones</td>
+</tr>
+<tr>
+<td><strong>Material</strong></td>
+<td>Define el color y aspecto de la superficie de un objeto</td>
+</tr>
+<tr>
+<td><strong>Script</strong></td>
+<td>Archivo de código que da comportamiento a un objeto</td>
+</tr>
+<tr>
+<td><strong>Prefab</strong></td>
+<td>Objeto guardado como plantilla para reutilizar</td>
+</tr>
+<tr>
+<td><strong>Hierarchy / Inspector / Project</strong></td>
+<td>Paneles principales del editor de Unity</td>
+</tr>
+<tr>
+<td><strong>Pipeline gráfico (URP)</strong></td>
+<td>Sistema que decide cómo se dibujan los gráficos</td>
+</tr>
+<tr>
+<td><strong>Blockout</strong></td>
+<td>Versión inicial de un nivel con formas simples, sin arte</td>
+</tr>
+</tbody>
+</table><p class="clearfix"></p></div>
+            </div></div>
+</div>
+
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/galeria-de-sprites.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<span class="nav-button nav-button-right" aria-hidden="true"><span>Siguiente</span></span>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>
