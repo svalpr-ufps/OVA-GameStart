@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="eXe-MANIFEST-20261106045042F741BY"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_v1p2">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>imslrm.xml</adlcp:location>
+  </metadata>
+  <organizations default="eXe-20261106045042F741BY">
+    <organization identifier="eXe-20261106045042F741BY" structure="hierarchical">
+      <title>GameStart: Tu primer videojuego</title>
+      <item identifier="ITEM-ROOT-20261106045042F741BY" isvisible="true">
+        <title>GameStart: Tu primer videojuego</title>
+        <item identifier="ITEM-page-mw4quod4-nsxqshyl0" identifierref="RES-page-mw4quod4-nsxqshyl0" isvisible="true">
+          <title>Introducción</title>
+        </item>
+        <item identifier="ITEM-page-mw4jfioa-ksqjb7hl9" identifierref="RES-page-mw4jfioa-ksqjb7hl9" isvisible="true">
+          <title>1. Primeros pasos para crear un videojuego</title>
+          <item identifier="ITEM-page-mw4oceul-mhe7naixv" identifierref="RES-page-mw4oceul-mhe7naixv" isvisible="true">
+            <title>Quiz Diagnostico</title>
+          </item>
+        </item>
+        <item identifier="ITEM-page-mw4ofo3r-npyvxmt9m" identifierref="RES-page-mw4ofo3r-npyvxmt9m" isvisible="true">
+          <title>1.1 ¿Qué es un videojuego?</title>
+        </item>
+        <item identifier="ITEM-page-mw4n5fub-mn0t0tyfw" identifierref="RES-page-mw4n5fub-mn0t0tyfw" isvisible="true">
+          <title>1.2 Motores de desarrollo</title>
+          <item identifier="ITEM-page-mw49amz5-g1jfm2yy4" identifierref="RES-page-mw49amz5-g1jfm2yy4" isvisible="true">
+            <title>Cuestionario Motores de Desarrollo</title>
+          </item>
+        </item>
+        <item identifier="ITEM-page-mw4n5nr6-kc3v3r0yc" identifierref="RES-page-mw4n5nr6-kc3v3r0yc" isvisible="true">
+          <title>1.3 Elementos básicos de un juego</title>
+          <item identifier="ITEM-page-mw47fqn3-y1afhoarm" identifierref="RES-page-mw47fqn3-y1afhoarm" isvisible="true">
+            <title>Crucigrama elementos de un videojuego</title>
+          </item>
+          <item identifier="ITEM-page-mw4q1o5f-hopayvl30" identifierref="RES-page-mw4q1o5f-hopayvl30" isvisible="true">
+            <title>Minijuego</title>
+          </item>
+        </item>
+        <item identifier="ITEM-page-mw4n5sli-w2fod6t0u" identifierref="RES-page-mw4n5sli-w2fod6t0u" isvisible="true">
+          <title>1.4 Diseño de personajes y escenarios</title>
+          <item identifier="ITEM-page-mw4jauoa-gp369alfr" identifierref="RES-page-mw4jauoa-gp369alfr" isvisible="true">
+            <title>Sopa de letras conceptos</title>
+            <item identifier="ITEM-page-mw5ple05-pxzccix6h" identifierref="RES-page-mw5ple05-pxzccix6h" isvisible="true">
+              <title>Galeria de Sprites</title>
+            </item>
+          </item>
+        </item>
+        <item identifier="ITEM-page-mw4n5wwd-10883diqt" identifierref="RES-page-mw4n5wwd-10883diqt" isvisible="true">
+          <title>1.5 Creación de un prototipo en Unity</title>
+        </item>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-page-mw4quod4-nsxqshyl0" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mw4jfioa-ksqjb7hl9" type="webcontent" adlcp:scormtype="sco" href="html/1-primeros-pasos-para-crear-un-videojuego.html">
+      <file href="html/1-primeros-pasos-para-crear-un-videojuego.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mw4oceul-mhe7naixv" type="webcontent" adlcp:scormtype="sco" href="html/quiz-diagnostico.html">
+      <file href="html/quiz-diagnostico.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mw4ofo3r-npyvxmt9m" type="webcontent" adlcp:scormtype="sco" href="html/11-que-es-un-videojuego.html">
+      <file href="html/11-que-es-un-videojuego.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mw4n5fub-mn0t0tyfw" type="webcontent" adlcp:scormtype="sco" href="html/12-motores-de-desarrollo.html">
+      <file href="html/12-motores-de-desarrollo.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mw49amz5-g1jfm2yy4" type="webcontent" adlcp:scormtype="sco" href="html/cuestionario-motores-de-desarrollo.html">
+      <file href="html/cuestionario-motores-de-desarrollo.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mw4n5nr6-kc3v3r0yc" type="webcontent" adlcp:scormtype="sco" href="html/13-elementos-basicos-de-un-juego.html">
+      <file href="html/13-elementos-basicos-de-un-juego.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mw47fqn3-y1afhoarm" type="webcontent" adlcp:scormtype="sco" href="html/crucigrama-elementos-de-un-videojuego.html">
+      <file href="html/crucigrama-elementos-de-un-videojuego.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mw4q1o5f-hopayvl30" type="webcontent" adlcp:scormtype="sco" href="html/minijuego.html">
+      <file href="html/minijuego.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mw4n5sli-w2fod6t0u" type="webcontent" adlcp:scormtype="sco" href="html/14-diseno-de-personajes-y-escenarios.html">
+      <file href="html/14-diseno-de-personajes-y-escenarios.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mw4jauoa-gp369alfr" type="webcontent" adlcp:scormtype="sco" href="html/sopa-de-letras-conceptos.html">
+      <file href="html/sopa-de-letras-conceptos.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mw5ple05-pxzccix6h" type="webcontent" adlcp:scormtype="sco" href="html/galeria-de-sprites.html">
+      <file href="html/galeria-de-sprites.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mw4n5wwd-10883diqt" type="webcontent" adlcp:scormtype="sco" href="html/15-creacion-de-un-prototipo-en-unity.html">
+      <file href="html/15-creacion-de-un-prototipo-en-unity.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="COMMON_FILES" type="webcontent" adlcp:scormtype="asset">
+      <file href="content.dtd"/>
+      <file href="content.xml"/>
+      <file href="content/css/base.css"/>
+      <file href="content/img/exe_powered_logo.png"/>
+      <file href="content/resources/180px-KRTDL_Kirby_model.png"/>
+      <file href="content/resources/Comparativa_de_motores_de_videojuegos.png"/>
+      <file href="content/resources/Diseño sin título (1).png"/>
+      <file href="content/resources/Diseño sin título (2).png"/>
+      <file href="content/resources/Diseño sin título.png"/>
+      <file href="content/resources/KA_Kirby_riding_Warp_Star_sprite.png"/>
+      <file href="content/resources/KA_prologue_1.png"/>
+      <file href="content/resources/KA_prologue_2.png"/>
+      <file href="content/resources/KA_prologue_4.png"/>
+      <file href="content/resources/KA_prologue_5.png"/>
+      <file href="content/resources/KBBa_Kirby_sprite.png"/>
+      <file href="content/resources/KDL2_Kirby_and_Coo_sprite.png"/>
+      <file href="content/resources/KDL2_Kirby_and_Rick_sprite.png"/>
+      <file href="content/resources/KDL_Kirby_Sprite.png"/>
+      <file href="content/resources/KSSU_Kirby_Guard_sprite.png"/>
+      <file href="content/resources/KSSU_Kirby_Sprite.png"/>
+      <file href="content/resources/KSSU_Kirby_sprite_2.png"/>
+      <file href="content/resources/KirbyTrophy3DS.png"/>
+      <file href="content/resources/Podcast - Los ingredientes de un videojuego.mp3"/>
+      <file href="content/resources/SSBM_Kirby_Trophy_Classic_model.png"/>
+      <file href="content/resources/SSB_Kirby_model.png"/>
+      <file href="content/resources/Video OVA GameStart (1).png"/>
+      <file href="content/resources/Video OVA GameStart (10).png"/>
+      <file href="content/resources/Video OVA GameStart (11).png"/>
+      <file href="content/resources/Video OVA GameStart (2).png"/>
+      <file href="content/resources/Video OVA GameStart (3).png"/>
+      <file href="content/resources/Video OVA GameStart (4).png"/>
+      <file href="content/resources/Video OVA GameStart (5).png"/>
+      <file href="content/resources/Video OVA GameStart (6).png"/>
+      <file href="content/resources/Video OVA GameStart (7).png"/>
+      <file href="content/resources/Video OVA GameStart (8).png"/>
+      <file href="content/resources/Video OVA GameStart (9).png"/>
+      <file href="content/resources/Video OVA GameStart.mp4"/>
+      <file href="content/resources/Video OVA GameStart.png"/>
+      <file href="idevices/crossword/ccccrossword.png"/>
+      <file href="idevices/crossword/ccgmbackground.jpg"/>
+      <file href="idevices/crossword/ccgmclose.svg"/>
+      <file href="idevices/crossword/ccgmdefinitions.png"/>
+      <file href="idevices/crossword/ccgmnoback.png"/>
+      <file href="idevices/crossword/ccgmzoomf.png"/>
+      <file href="idevices/crossword/ccgmzoomn.png"/>
+      <file href="idevices/crossword/ccmgimage.svg"/>
+      <file href="idevices/crossword/cmmgaudio.svg"/>
+      <file href="idevices/crossword/crossword.css"/>
+      <file href="idevices/crossword/crossword.js"/>
+      <file href="idevices/crossword/exequextaudio.svg"/>
+      <file href="idevices/crossword/exequextcursor.gif"/>
+      <file href="idevices/crossword/exequextfull.svg"/>
+      <file href="idevices/crossword/exequexthits.svg"/>
+      <file href="idevices/crossword/exequextmin.svg"/>
+      <file href="idevices/crossword/exequextnumber.svg"/>
+      <file href="idevices/crossword/exequextreply.svg"/>
+      <file href="idevices/crossword/exequextrerrors.svg"/>
+      <file href="idevices/crossword/exequextscore.svg"/>
+      <file href="idevices/crossword/exequextsq.svg"/>
+      <file href="idevices/crossword/exequexttime.svg"/>
+      <file href="idevices/external-website/exequextsq.svg"/>
+      <file href="idevices/external-website/external-website.css"/>
+      <file href="idevices/external-website/external-website.js"/>
+      <file href="idevices/form/exequexthits.svg"/>
+      <file href="idevices/form/exequextrerrors.svg"/>
+      <file href="idevices/form/exequextsq.svg"/>
+      <file href="idevices/form/form.css"/>
+      <file href="idevices/form/form.html"/>
+      <file href="idevices/form/form.js"/>
+      <file href="idevices/form/formnext.png"/>
+      <file href="idevices/form/formnextd.png"/>
+      <file href="idevices/form/formprevious.png"/>
+      <file href="idevices/form/formpreviousd.png"/>
+      <file href="idevices/form/frmhidesuggestion.png"/>
+      <file href="idevices/form/frmshowsuggestion.png"/>
+      <file href="idevices/identify/exequextaudio.svg"/>
+      <file href="idevices/identify/exequextcursor.gif"/>
+      <file href="idevices/identify/exequextfull.svg"/>
+      <file href="idevices/identify/exequexthits.svg"/>
+      <file href="idevices/identify/exequextlive.png"/>
+      <file href="idevices/identify/exequextlost.png"/>
+      <file href="idevices/identify/exequextmin.svg"/>
+      <file href="idevices/identify/exequextnumber.svg"/>
+      <file href="idevices/identify/exequextpoints.png"/>
+      <file href="idevices/identify/exequextreload.svg"/>
+      <file href="idevices/identify/exequextreply.svg"/>
+      <file href="idevices/identify/exequextrerrors.svg"/>
+      <file href="idevices/identify/exequextscore.svg"/>
+      <file href="idevices/identify/exequextsq.svg"/>
+      <file href="idevices/identify/exequexttime.svg"/>
+      <file href="idevices/identify/exequextwon.png"/>
+      <file href="idevices/identify/identificaHome.png"/>
+      <file href="idevices/identify/identificaIcon.png"/>
+      <file href="idevices/identify/identificaPistaA.svg"/>
+      <file href="idevices/identify/identificaPistaI.svg"/>
+      <file href="idevices/identify/identificaPistaOpen.svg"/>
+      <file href="idevices/identify/identify.css"/>
+      <file href="idevices/identify/identify.js"/>
+      <file href="idevices/image-gallery/exequextsq.svg"/>
+      <file href="idevices/image-gallery/image-gallery.css"/>
+      <file href="idevices/image-gallery/image-gallery.html"/>
+      <file href="idevices/image-gallery/image-gallery.js"/>
+      <file href="idevices/image-gallery/simple-lightbox.min.css"/>
+      <file href="idevices/image-gallery/simple-lightbox.min.js"/>
+      <file href="idevices/interactive-video/exequexthits.svg"/>
+      <file href="idevices/interactive-video/exequextrerrors.svg"/>
+      <file href="idevices/interactive-video/exequextsq.svg"/>
+      <file href="idevices/interactive-video/interactive-video-bg.gif"/>
+      <file href="idevices/interactive-video/interactive-video-less.gif"/>
+      <file href="idevices/interactive-video/interactive-video-loading.gif"/>
+      <file href="idevices/interactive-video/interactive-video-more.gif"/>
+      <file href="idevices/interactive-video/interactive-video-sorter.png"/>
+      <file href="idevices/interactive-video/interactive-video.css"/>
+      <file href="idevices/interactive-video/interactive-video.js"/>
+      <file href="idevices/markdown-text/markdown-text.css"/>
+      <file href="idevices/markdown-text/markdown-text.html"/>
+      <file href="idevices/markdown-text/markdown-text.js"/>
+      <file href="idevices/slide/slide.css"/>
+      <file href="idevices/slide/slide.html"/>
+      <file href="idevices/slide/slide.js"/>
+      <file href="idevices/text/exequextsq.svg"/>
+      <file href="idevices/text/text.css"/>
+      <file href="idevices/text/text.html"/>
+      <file href="idevices/text/text.js"/>
+      <file href="idevices/word-search/exequextaudio.svg"/>
+      <file href="idevices/word-search/exequextcursor.gif"/>
+      <file href="idevices/word-search/exequextfull.svg"/>
+      <file href="idevices/word-search/exequexthits.svg"/>
+      <file href="idevices/word-search/exequextlive.png"/>
+      <file href="idevices/word-search/exequextlost.png"/>
+      <file href="idevices/word-search/exequextmin.svg"/>
+      <file href="idevices/word-search/exequextmoveon.svg"/>
+      <file href="idevices/word-search/exequextnumber.svg"/>
+      <file href="idevices/word-search/exequextreload.svg"/>
+      <file href="idevices/word-search/exequextreply.svg"/>
+      <file href="idevices/word-search/exequextrerrors.svg"/>
+      <file href="idevices/word-search/exequextscore.svg"/>
+      <file href="idevices/word-search/exequextsq.svg"/>
+      <file href="idevices/word-search/exequexttime.svg"/>
+      <file href="idevices/word-search/exequextwon.png"/>
+      <file href="idevices/word-search/exezoomf.png"/>
+      <file href="idevices/word-search/exezoomn.png"/>
+      <file href="idevices/word-search/mapacerrarventana.svg"/>
+      <file href="idevices/word-search/sopaHome.png"/>
+      <file href="idevices/word-search/sopaIcon.png"/>
+      <file href="idevices/word-search/sopaaudio.svg"/>
+      <file href="idevices/word-search/sopaimage.svg"/>
+      <file href="idevices/word-search/word-search.css"/>
+      <file href="idevices/word-search/word-search.js"/>
+      <file href="imslrm.xml"/>
+      <file href="libs/SCOFunctions.js"/>
+      <file href="libs/SCORM_API_wrapper.js"/>
+      <file href="libs/bootstrap/bootstrap.bundle.min.js"/>
+      <file href="libs/bootstrap/bootstrap.min.css"/>
+      <file href="libs/common.js"/>
+      <file href="libs/common_i18n.js"/>
+      <file href="libs/exe_export.js"/>
+      <file href="libs/exe_highlighter/exe_highlighter.css"/>
+      <file href="libs/exe_highlighter/exe_highlighter.js"/>
+      <file href="libs/exe_lightbox/exe_lightbox.css"/>
+      <file href="libs/exe_lightbox/exe_lightbox.js"/>
+      <file href="libs/exe_lightbox/exe_lightbox_default_thumb.png"/>
+      <file href="libs/exe_lightbox/exe_lightbox_loader.gif"/>
+      <file href="libs/exe_lightbox/exe_lightbox_sprite.png"/>
+      <file href="libs/exe_lightbox/exe_lightbox_sprite_next.png"/>
+      <file href="libs/exe_lightbox/exe_lightbox_sprite_prev.png"/>
+      <file href="libs/exe_lightbox/exe_lightbox_sprite_x.png"/>
+      <file href="libs/exe_lightbox/exe_lightbox_sprite_y.png"/>
+      <file href="libs/favicon.ico"/>
+      <file href="libs/jquery/jquery.min.js"/>
+      <file href="theme/config.xml"/>
+      <file href="theme/fonts/Andika-Bold.woff2"/>
+      <file href="theme/fonts/Andika-BoldItalic.woff2"/>
+      <file href="theme/fonts/Andika-Italic.woff2"/>
+      <file href="theme/fonts/Andika-Regular.woff2"/>
+      <file href="theme/fonts/OFL.txt"/>
+      <file href="theme/icons/activity.png"/>
+      <file href="theme/icons/agreement.png"/>
+      <file href="theme/icons/alert.png"/>
+      <file href="theme/icons/arts.png"/>
+      <file href="theme/icons/ask.png"/>
+      <file href="theme/icons/book.png"/>
+      <file href="theme/icons/calculate.png"/>
+      <file href="theme/icons/case.png"/>
+      <file href="theme/icons/chrono.png"/>
+      <file href="theme/icons/collaborative.png"/>
+      <file href="theme/icons/competencies.png"/>
+      <file href="theme/icons/diary.png"/>
+      <file href="theme/icons/diary_alt.png"/>
+      <file href="theme/icons/discuss.png"/>
+      <file href="theme/icons/download.png"/>
+      <file href="theme/icons/draw.png"/>
+      <file href="theme/icons/english.png"/>
+      <file href="theme/icons/experiment.png"/>
+      <file href="theme/icons/explore.png"/>
+      <file href="theme/icons/file.png"/>
+      <file href="theme/icons/gallery.png"/>
+      <file href="theme/icons/geography.png"/>
+      <file href="theme/icons/guide.png"/>
+      <file href="theme/icons/history.png"/>
+      <file href="theme/icons/info.png"/>
+      <file href="theme/icons/interactive.png"/>
+      <file href="theme/icons/letters.png"/>
+      <file href="theme/icons/listen.png"/>
+      <file href="theme/icons/math.png"/>
+      <file href="theme/icons/music.png"/>
+      <file href="theme/icons/nature.png"/>
+      <file href="theme/icons/objectives.png"/>
+      <file href="theme/icons/observe.png"/>
+      <file href="theme/icons/passport.png"/>
+      <file href="theme/icons/perform.png"/>
+      <file href="theme/icons/piece.png"/>
+      <file href="theme/icons/pieces.png"/>
+      <file href="theme/icons/play.png"/>
+      <file href="theme/icons/present.png"/>
+      <file href="theme/icons/reflection.png"/>
+      <file href="theme/icons/roadmap.png"/>
+      <file href="theme/icons/share.png"/>
+      <file href="theme/icons/sport.png"/>
+      <file href="theme/icons/start.png"/>
+      <file href="theme/icons/stop.png"/>
+      <file href="theme/icons/suitcase.png"/>
+      <file href="theme/icons/technology.png"/>
+      <file href="theme/icons/think.png"/>
+      <file href="theme/icons/think_alt.png"/>
+      <file href="theme/icons/video.png"/>
+      <file href="theme/img/cedec.png"/>
+      <file href="theme/img/cedec_sm.png"/>
+      <file href="theme/img/clip.png"/>
+      <file href="theme/img/clip_on.png"/>
+      <file href="theme/img/deco_bar.svg"/>
+      <file href="theme/img/deco_corner.svg"/>
+      <file href="theme/img/deco_nav.svg"/>
+      <file href="theme/img/external_link.svg"/>
+      <file href="theme/img/favicon.ico"/>
+      <file href="theme/img/home.png"/>
+      <file href="theme/img/icon_alert.png"/>
+      <file href="theme/img/icon_danger.png"/>
+      <file href="theme/img/icon_download.png"/>
+      <file href="theme/img/icon_info.png"/>
+      <file href="theme/img/icon_success.png"/>
+      <file href="theme/img/icon_warning.png"/>
+      <file href="theme/img/icons.png"/>
+      <file href="theme/img/intef.png"/>
+      <file href="theme/img/licenses.gif"/>
+      <file href="theme/img/mefpd.png"/>
+      <file href="theme/img/mefpd_sm.png"/>
+      <file href="theme/screenshot.png"/>
+      <file href="theme/style.css"/>
+      <file href="theme/style.js"/>
+    </resource>
+  </resources>
+</manifest>
